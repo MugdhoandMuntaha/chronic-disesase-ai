@@ -1,0 +1,38 @@
+# Core Data Processing
+polars>=1.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=14.0.0
+scipy>=1.10.0
+
+# Healthcare ML & Modeling
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+lightgbm>=4.0.0
+torch>=2.1.0
+pyhealth>=1.1.4
+
+# Explainability & Interpretability
+shap>=0.44.0
+
+# Experiment Tracking
+mlflow>=2.10.0
+
+# API & Serving
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+python-multipart>=0.0.6
+
+# Interactive UI Dashboard
+streamlit>=1.30.0
+
+# Visualization & Reporting
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Utilities & Testing
+python-dateutil>=2.8.2
+pytest>=7.4.0
+tqdm>=4.66.0
+python-dotenv>=1.0.0
