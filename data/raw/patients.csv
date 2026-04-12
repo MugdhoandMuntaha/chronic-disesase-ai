@@ -1,0 +1,1001 @@
+patient_id,age,gender,ethnicity,smoking_status,baseline_bmi,family_history_diabetes,index_date,target_label
+PT_000001,72,Male,Caucasian,Former,33.5,0,2025-06-13,0
+PT_000002,52,Male,Caucasian,Never,27.5,1,2025-01-23,0
+PT_000003,50,Female,African American,Former,22.3,1,2025-06-16,0
+PT_000004,45,Male,Asian,Never,30.1,1,2025-06-28,1
+PT_000005,34,Female,Caucasian,Current,21.7,0,2025-03-30,0
+PT_000006,34,Male,African American,Never,21.5,1,2025-06-10,0
+PT_000007,72,Female,Caucasian,Former,19.1,0,2025-01-21,0
+PT_000008,44,Male,African American,Never,21.4,0,2025-02-23,0
+PT_000009,51,Male,African American,Current,39.5,0,2025-04-08,1
+PT_000010,59,Male,Caucasian,Current,23.4,0,2025-01-09,0
+PT_000011,25,Female,Caucasian,Never,27.9,0,2025-06-17,0
+PT_000012,38,Female,Caucasian,Current,31.0,0,2025-05-30,0
+PT_000013,60,Male,Hispanic,Never,26.0,1,2025-01-13,0
+PT_000014,18,Male,African American,Never,25.8,0,2025-04-30,0
+PT_000015,48,Male,Caucasian,Current,31.7,0,2025-06-14,0
+PT_000016,56,Male,Hispanic,Never,22.3,0,2025-05-09,0
+PT_000017,49,Male,African American,Never,30.3,1,2025-02-09,0
+PT_000018,55,Male,Caucasian,Never,31.9,1,2025-03-20,0
+PT_000019,66,Male,Caucasian,Current,32.3,0,2025-02-02,1
+PT_000020,55,Female,Caucasian,Former,19.4,0,2025-05-19,0
+PT_000021,62,Female,Caucasian,Former,30.5,0,2025-04-26,1
+PT_000022,59,Male,Hispanic,Never,28.9,1,2025-06-11,0
+PT_000023,33,Female,Caucasian,Never,25.6,0,2025-02-24,0
+PT_000024,41,Female,Hispanic,Never,30.2,0,2025-06-18,0
+PT_000025,44,Male,Caucasian,Never,30.8,0,2025-01-16,0
+PT_000026,27,Male,Caucasian,Current,30.6,0,2025-03-13,1
+PT_000027,73,Male,Caucasian,Never,16.9,1,2025-05-19,0
+PT_000028,55,Female,Caucasian,Former,28.1,0,2025-01-16,0
+PT_000029,46,Male,Caucasian,Current,23.3,0,2025-05-23,0
+PT_000030,72,Male,Caucasian,Never,30.5,0,2025-03-22,1
+PT_000031,50,Male,Asian,Former,24.9,0,2025-01-18,1
+PT_000032,38,Female,Asian,Never,31.3,0,2025-01-21,0
+PT_000033,68,Female,Caucasian,Former,33.6,1,2025-04-12,0
+PT_000034,60,Male,Caucasian,Never,28.2,0,2025-05-25,1
+PT_000035,49,Female,African American,Current,30.2,0,2025-03-04,1
+PT_000036,48,Male,Caucasian,Current,35.2,0,2025-05-22,1
+PT_000037,37,Male,African American,Current,23.3,0,2025-03-14,0
+PT_000038,67,Female,Caucasian,Never,31.0,1,2025-01-14,0
+PT_000039,54,Female,Caucasian,Never,20.8,0,2025-02-11,0
+PT_000040,29,Male,Caucasian,Never,25.5,0,2025-02-08,0
+PT_000041,62,Male,African American,Never,26.2,0,2025-01-11,0
+PT_000042,54,Male,Hispanic,Current,16.8,0,2025-06-08,0
+PT_000043,68,Female,Hispanic,Current,39.1,0,2025-01-07,1
+PT_000044,77,Female,Caucasian,Former,34.8,0,2025-06-29,1
+PT_000045,58,Female,Caucasian,Current,35.8,0,2025-02-28,0
+PT_000046,33,Female,Asian,Never,27.3,0,2025-06-14,0
+PT_000047,73,Female,African American,Never,29.6,0,2025-03-09,0
+PT_000048,62,Male,African American,Never,26.3,0,2025-04-09,0
+PT_000049,59,Female,African American,Former,33.3,1,2025-06-21,0
+PT_000050,49,Female,African American,Former,33.0,1,2025-05-10,0
+PT_000051,41,Female,Caucasian,Current,17.1,0,2025-04-08,0
+PT_000052,45,Female,Caucasian,Never,24.8,0,2025-05-29,0
+PT_000053,48,Female,Caucasian,Current,24.0,1,2025-02-13,0
+PT_000054,57,Female,African American,Former,29.2,0,2025-02-20,0
+PT_000055,62,Female,Caucasian,Never,35.8,0,2025-05-28,0
+PT_000056,56,Female,Caucasian,Never,24.0,0,2025-01-28,0
+PT_000057,34,Female,Asian,Current,16.0,0,2025-04-29,0
+PT_000058,27,Female,Hispanic,Former,33.1,0,2025-05-10,0
+PT_000059,61,Female,African American,Never,24.1,1,2025-03-05,0
+PT_000060,39,Male,Caucasian,Never,37.3,0,2025-03-11,0
+PT_000061,44,Female,Caucasian,Never,30.3,0,2025-01-17,0
+PT_000062,57,Female,Caucasian,Current,27.4,0,2025-05-30,0
+PT_000063,32,Male,Caucasian,Never,26.3,0,2025-04-18,0
+PT_000064,48,Male,Hispanic,Current,23.6,0,2025-06-21,0
+PT_000065,37,Male,African American,Never,24.2,0,2025-04-11,0
+PT_000066,47,Female,Hispanic,Never,33.2,0,2025-04-08,0
+PT_000067,63,Male,Other,Never,23.3,0,2025-03-06,0
+PT_000068,58,Male,Caucasian,Never,28.5,1,2025-06-16,1
+PT_000069,80,Female,African American,Former,36.6,1,2025-06-21,1
+PT_000070,56,Female,Caucasian,Never,24.6,0,2025-01-30,0
+PT_000071,37,Male,African American,Current,33.0,0,2025-04-07,0
+PT_000072,66,Male,Hispanic,Former,22.7,1,2025-03-19,0
+PT_000073,43,Female,Caucasian,Never,32.5,0,2025-06-19,0
+PT_000074,37,Male,Caucasian,Former,21.1,0,2025-04-03,0
+PT_000075,57,Female,Caucasian,Never,21.7,0,2025-05-18,0
+PT_000076,55,Female,Caucasian,Never,33.9,0,2025-04-26,0
+PT_000077,58,Female,Caucasian,Never,23.0,1,2025-04-01,0
+PT_000078,31,Female,African American,Never,28.5,0,2025-04-15,0
+PT_000079,46,Female,Caucasian,Never,30.1,0,2025-02-26,0
+PT_000080,45,Female,Caucasian,Never,32.7,1,2025-03-26,1
+PT_000081,75,Male,Caucasian,Never,25.9,0,2025-05-18,0
+PT_000082,22,Male,Caucasian,Never,20.2,0,2025-05-15,0
+PT_000083,49,Female,African American,Never,42.5,0,2025-02-02,0
+PT_000084,40,Female,Caucasian,Current,25.0,0,2025-01-04,0
+PT_000085,61,Male,Caucasian,Former,23.7,1,2025-01-30,0
+PT_000086,64,Female,African American,Former,29.9,1,2025-03-19,0
+PT_000087,64,Female,Caucasian,Former,25.3,0,2025-04-26,0
+PT_000088,47,Male,Caucasian,Never,25.4,1,2025-02-23,1
+PT_000089,49,Male,Caucasian,Former,23.0,0,2025-04-26,0
+PT_000090,56,Male,Caucasian,Never,32.1,0,2025-06-25,0
+PT_000091,62,Female,African American,Former,29.2,0,2025-02-06,0
+PT_000092,46,Female,Caucasian,Never,19.9,1,2025-04-30,1
+PT_000093,53,Male,Caucasian,Current,21.4,0,2025-04-21,0
+PT_000094,75,Female,Caucasian,Former,27.8,1,2025-01-06,0
+PT_000095,62,Female,African American,Never,26.0,1,2025-04-24,0
+PT_000096,52,Male,Caucasian,Former,30.3,0,2025-03-27,0
+PT_000097,60,Female,Caucasian,Current,28.3,0,2025-05-21,0
+PT_000098,45,Female,Caucasian,Never,22.0,0,2025-01-01,0
+PT_000099,55,Male,Asian,Never,24.8,0,2025-04-24,0
+PT_000100,46,Male,Caucasian,Never,25.9,0,2025-06-11,0
+PT_000101,48,Male,Caucasian,Former,28.8,0,2025-01-30,0
+PT_000102,65,Male,Caucasian,Current,27.7,0,2025-05-04,0
+PT_000103,50,Female,Caucasian,Former,37.4,0,2025-01-18,1
+PT_000104,64,Female,Hispanic,Never,21.6,0,2025-03-18,0
+PT_000105,31,Male,Other,Never,36.3,0,2025-05-20,0
+PT_000106,77,Female,Caucasian,Former,30.3,0,2025-04-16,0
+PT_000107,62,Female,Hispanic,Current,27.2,0,2025-05-07,0
+PT_000108,62,Male,Caucasian,Former,28.5,0,2025-04-27,0
+PT_000109,38,Female,Asian,Former,19.1,0,2025-04-12,0
+PT_000110,60,Female,Other,Former,28.3,0,2025-05-19,1
+PT_000111,53,Male,African American,Current,26.0,1,2025-06-12,0
+PT_000112,45,Male,Caucasian,Former,32.3,0,2025-03-17,0
+PT_000113,44,Male,Caucasian,Former,25.1,1,2025-01-21,0
+PT_000114,54,Female,Asian,Former,28.6,1,2025-04-28,0
+PT_000115,66,Female,African American,Never,27.4,0,2025-03-30,0
+PT_000116,65,Female,Caucasian,Current,31.1,0,2025-05-04,0
+PT_000117,53,Male,Asian,Former,28.6,0,2025-06-18,0
+PT_000118,44,Male,African American,Former,25.3,0,2025-02-28,0
+PT_000119,34,Male,Caucasian,Never,20.4,0,2025-02-05,0
+PT_000120,65,Female,Caucasian,Never,25.2,0,2025-01-24,0
+PT_000121,43,Male,Caucasian,Former,28.2,0,2025-05-16,0
+PT_000122,60,Male,Caucasian,Current,22.9,0,2025-03-28,0
+PT_000123,79,Female,Caucasian,Never,25.8,0,2025-04-12,1
+PT_000124,45,Female,Hispanic,Current,20.5,1,2025-04-05,0
+PT_000125,30,Female,Asian,Never,18.8,1,2025-01-07,0
+PT_000126,50,Male,Caucasian,Never,33.0,0,2025-06-29,0
+PT_000127,60,Female,Caucasian,Current,25.9,0,2025-03-02,0
+PT_000128,54,Female,African American,Current,24.6,0,2025-05-31,0
+PT_000129,68,Female,Caucasian,Never,28.9,0,2025-03-13,0
+PT_000130,18,Female,Caucasian,Never,23.6,0,2025-04-05,0
+PT_000131,63,Male,Caucasian,Never,30.1,0,2025-04-27,0
+PT_000132,76,Male,African American,Former,31.8,1,2025-02-22,0
+PT_000133,82,Male,Other,Never,28.4,0,2025-06-02,1
+PT_000134,63,Male,African American,Never,31.7,0,2025-01-07,1
+PT_000135,32,Female,Caucasian,Never,26.3,0,2025-04-18,0
+PT_000136,58,Female,Caucasian,Current,27.2,1,2025-02-26,0
+PT_000137,49,Female,Caucasian,Never,29.0,0,2025-04-13,1
+PT_000138,41,Female,Caucasian,Former,22.7,0,2025-03-12,0
+PT_000139,72,Male,Caucasian,Current,32.7,0,2025-04-21,0
+PT_000140,49,Female,Caucasian,Never,29.0,0,2025-04-13,0
+PT_000141,79,Male,Caucasian,Former,32.1,0,2025-05-02,1
+PT_000142,39,Female,African American,Never,24.1,0,2025-01-16,0
+PT_000143,70,Female,African American,Never,21.3,0,2025-04-19,0
+PT_000144,28,Female,Hispanic,Never,29.0,0,2025-06-18,0
+PT_000145,76,Male,African American,Former,17.0,0,2025-04-20,1
+PT_000146,51,Female,Caucasian,Never,23.3,1,2025-03-11,0
+PT_000147,67,Male,Caucasian,Never,33.7,0,2025-01-18,0
+PT_000148,39,Male,Hispanic,Never,34.0,0,2025-02-10,1
+PT_000149,52,Female,African American,Never,35.8,1,2025-01-21,0
+PT_000150,44,Female,Caucasian,Never,29.7,1,2025-03-30,0
+PT_000151,66,Male,Hispanic,Former,28.4,0,2025-01-15,1
+PT_000152,54,Female,Caucasian,Never,24.4,0,2025-05-08,0
+PT_000153,80,Male,Caucasian,Never,32.6,1,2025-04-01,1
+PT_000154,35,Female,Caucasian,Never,24.0,0,2025-04-20,0
+PT_000155,34,Female,Caucasian,Current,29.9,0,2025-06-08,0
+PT_000156,79,Female,Caucasian,Former,33.1,1,2025-05-15,0
+PT_000157,24,Female,Caucasian,Current,27.1,0,2025-05-16,0
+PT_000158,60,Male,Hispanic,Former,30.8,1,2025-01-27,0
+PT_000159,37,Female,African American,Current,29.4,0,2025-05-07,0
+PT_000160,67,Male,Caucasian,Never,22.9,0,2025-03-24,0
+PT_000161,70,Female,Caucasian,Never,30.1,0,2025-06-01,0
+PT_000162,73,Female,Caucasian,Former,19.7,0,2025-06-15,0
+PT_000163,70,Male,Caucasian,Never,24.7,1,2025-04-26,1
+PT_000164,64,Male,Caucasian,Never,19.4,0,2025-01-27,0
+PT_000165,36,Female,Caucasian,Never,26.7,0,2025-04-23,0
+PT_000166,73,Female,Caucasian,Never,30.3,0,2025-06-03,0
+PT_000167,73,Male,Caucasian,Former,26.7,1,2025-06-18,0
+PT_000168,50,Male,Caucasian,Never,23.5,0,2025-06-17,0
+PT_000169,45,Male,African American,Never,16.6,0,2025-06-21,0
+PT_000170,67,Female,Caucasian,Current,26.3,1,2025-02-16,1
+PT_000171,37,Male,African American,Current,27.9,0,2025-01-26,0
+PT_000172,68,Male,African American,Never,36.2,0,2025-02-09,0
+PT_000173,37,Female,Caucasian,Never,21.9,0,2025-04-24,0
+PT_000174,32,Female,Caucasian,Never,37.6,0,2025-02-19,0
+PT_000175,65,Male,Hispanic,Never,20.0,0,2025-02-11,0
+PT_000176,50,Male,Caucasian,Former,22.4,0,2025-01-27,0
+PT_000177,57,Male,Hispanic,Current,26.3,0,2025-02-07,0
+PT_000178,44,Male,Caucasian,Never,28.2,0,2025-04-12,0
+PT_000179,50,Male,Caucasian,Former,30.6,0,2025-06-16,0
+PT_000180,36,Male,Caucasian,Never,29.5,1,2025-06-30,0
+PT_000181,48,Female,Caucasian,Never,27.3,1,2025-06-05,0
+PT_000182,48,Female,African American,Never,28.5,0,2025-06-09,0
+PT_000183,54,Female,Caucasian,Never,28.1,0,2025-02-06,1
+PT_000184,70,Male,Caucasian,Never,30.7,0,2025-04-03,0
+PT_000185,54,Male,Caucasian,Former,23.5,0,2025-03-06,0
+PT_000186,63,Female,Hispanic,Never,31.6,0,2025-03-27,0
+PT_000187,46,Male,Caucasian,Former,28.6,0,2025-06-28,0
+PT_000188,62,Female,Asian,Never,16.7,0,2025-01-12,0
+PT_000189,74,Female,Caucasian,Former,29.6,0,2025-03-06,0
+PT_000190,59,Female,Hispanic,Current,22.2,0,2025-02-01,0
+PT_000191,50,Female,Hispanic,Former,22.9,1,2025-05-08,0
+PT_000192,43,Male,Caucasian,Never,27.0,0,2025-02-16,0
+PT_000193,50,Male,African American,Current,23.9,0,2025-02-12,0
+PT_000194,88,Male,African American,Never,26.7,0,2025-06-13,0
+PT_000195,62,Female,Caucasian,Never,26.9,0,2025-02-10,0
+PT_000196,58,Male,African American,Current,27.8,0,2025-04-09,0
+PT_000197,63,Female,African American,Never,31.8,1,2025-05-27,0
+PT_000198,24,Male,Caucasian,Never,27.0,0,2025-05-08,0
+PT_000199,37,Male,Caucasian,Current,16.0,0,2025-03-15,0
+PT_000200,80,Female,African American,Former,27.6,0,2025-04-24,0
+PT_000201,68,Male,Hispanic,Never,21.9,1,2025-03-18,0
+PT_000202,56,Female,Caucasian,Never,34.2,0,2025-02-05,0
+PT_000203,58,Female,Other,Former,26.5,0,2025-06-06,0
+PT_000204,88,Male,Caucasian,Former,34.2,0,2025-05-28,0
+PT_000205,49,Male,Caucasian,Current,25.8,1,2025-05-22,1
+PT_000206,52,Male,Caucasian,Current,31.0,0,2025-02-09,0
+PT_000207,66,Female,Caucasian,Never,40.8,0,2025-03-06,0
+PT_000208,39,Male,African American,Former,24.6,0,2025-02-13,0
+PT_000209,82,Male,Caucasian,Former,30.8,0,2025-05-25,0
+PT_000210,37,Female,Hispanic,Never,31.7,0,2025-05-27,0
+PT_000211,62,Female,Caucasian,Former,19.9,1,2025-03-04,0
+PT_000212,60,Female,Hispanic,Never,35.0,0,2025-04-29,0
+PT_000213,64,Male,Caucasian,Never,31.7,0,2025-04-13,0
+PT_000214,87,Female,Caucasian,Current,31.9,1,2025-01-25,1
+PT_000215,53,Male,Caucasian,Never,25.0,0,2025-05-28,0
+PT_000216,66,Female,Other,Never,30.7,0,2025-01-06,1
+PT_000217,32,Female,Caucasian,Never,21.7,1,2025-05-07,0
+PT_000218,51,Female,Caucasian,Never,18.5,0,2025-03-09,0
+PT_000219,69,Female,Hispanic,Former,30.7,0,2025-03-15,1
+PT_000220,35,Female,Caucasian,Never,33.9,1,2025-01-25,0
+PT_000221,50,Male,African American,Former,28.2,0,2025-04-13,0
+PT_000222,75,Female,Caucasian,Current,37.6,0,2025-05-12,1
+PT_000223,38,Female,African American,Never,27.5,0,2025-03-28,0
+PT_000224,66,Female,Hispanic,Former,31.4,0,2025-06-22,1
+PT_000225,53,Male,African American,Former,35.5,1,2025-05-02,0
+PT_000226,57,Male,Caucasian,Current,23.4,1,2025-06-08,1
+PT_000227,42,Male,Caucasian,Former,30.7,0,2025-03-22,0
+PT_000228,50,Female,Other,Never,21.4,0,2025-01-16,0
+PT_000229,65,Female,African American,Current,25.2,0,2025-04-28,0
+PT_000230,47,Male,Caucasian,Never,26.1,0,2025-03-09,0
+PT_000231,49,Female,Caucasian,Never,19.7,0,2025-03-15,0
+PT_000232,50,Female,Hispanic,Never,34.8,0,2025-03-12,0
+PT_000233,52,Male,Caucasian,Never,32.2,0,2025-02-07,0
+PT_000234,60,Female,Caucasian,Former,23.9,0,2025-02-21,0
+PT_000235,63,Male,Caucasian,Never,26.2,0,2025-06-21,1
+PT_000236,72,Male,Caucasian,Current,28.4,0,2025-02-05,0
+PT_000237,55,Female,African American,Current,23.3,1,2025-02-21,0
+PT_000238,53,Male,Asian,Never,18.5,0,2025-05-17,0
+PT_000239,69,Female,Caucasian,Former,27.7,0,2025-01-10,0
+PT_000240,73,Male,Asian,Never,28.6,0,2025-01-10,0
+PT_000241,21,Female,Caucasian,Former,28.3,0,2025-05-15,0
+PT_000242,54,Female,Hispanic,Former,31.3,0,2025-06-15,0
+PT_000243,75,Female,Caucasian,Former,21.6,1,2025-06-13,1
+PT_000244,56,Female,Caucasian,Former,27.5,0,2025-03-24,0
+PT_000245,75,Male,Caucasian,Never,28.7,0,2025-05-27,0
+PT_000246,80,Female,African American,Former,22.5,0,2025-05-09,0
+PT_000247,56,Male,Caucasian,Current,30.8,0,2025-02-26,0
+PT_000248,56,Male,Hispanic,Former,19.2,0,2025-05-01,0
+PT_000249,34,Male,Asian,Never,30.8,0,2025-05-15,0
+PT_000250,47,Female,Hispanic,Never,26.4,0,2025-02-21,0
+PT_000251,69,Male,Caucasian,Never,31.4,0,2025-05-06,1
+PT_000252,49,Male,Caucasian,Former,24.4,0,2025-04-29,0
+PT_000253,35,Male,Asian,Never,31.8,0,2025-01-12,1
+PT_000254,58,Female,Caucasian,Current,30.5,0,2025-04-15,0
+PT_000255,39,Male,African American,Never,33.5,1,2025-04-07,0
+PT_000256,82,Male,Hispanic,Current,38.2,0,2025-05-16,0
+PT_000257,29,Male,Caucasian,Never,26.3,1,2025-04-19,0
+PT_000258,75,Male,Caucasian,Never,29.7,0,2025-01-29,0
+PT_000259,53,Male,Caucasian,Never,26.7,1,2025-06-22,0
+PT_000260,83,Male,Hispanic,Former,40.4,0,2025-01-15,0
+PT_000261,59,Male,Other,Never,24.9,0,2025-06-22,0
+PT_000262,82,Male,African American,Never,24.9,0,2025-05-23,0
+PT_000263,43,Female,African American,Never,19.3,0,2025-06-14,0
+PT_000264,28,Female,Hispanic,Never,29.6,0,2025-05-18,0
+PT_000265,72,Male,Caucasian,Never,26.9,0,2025-04-16,1
+PT_000266,58,Male,Caucasian,Never,26.4,0,2025-04-26,1
+PT_000267,63,Male,Caucasian,Current,36.0,0,2025-01-19,0
+PT_000268,57,Male,Hispanic,Former,31.4,0,2025-01-04,0
+PT_000269,63,Female,Hispanic,Never,39.5,0,2025-06-30,0
+PT_000270,36,Female,Caucasian,Current,36.6,0,2025-03-08,0
+PT_000271,45,Male,Hispanic,Never,32.0,0,2025-02-22,0
+PT_000272,52,Male,Caucasian,Current,31.4,0,2025-04-17,0
+PT_000273,42,Female,Other,Former,35.8,0,2025-06-25,0
+PT_000274,65,Female,Caucasian,Current,35.5,0,2025-04-01,0
+PT_000275,81,Male,Hispanic,Never,30.2,0,2025-05-15,1
+PT_000276,71,Female,Caucasian,Former,28.2,0,2025-02-08,0
+PT_000277,53,Female,Caucasian,Never,27.8,0,2025-06-18,0
+PT_000278,33,Female,Hispanic,Current,27.7,1,2025-01-05,1
+PT_000279,56,Female,Hispanic,Never,35.4,0,2025-02-08,0
+PT_000280,44,Male,Caucasian,Former,29.2,1,2025-04-14,0
+PT_000281,55,Female,Caucasian,Never,25.4,0,2025-06-16,0
+PT_000282,40,Female,Caucasian,Current,27.8,1,2025-01-22,0
+PT_000283,58,Female,Caucasian,Current,39.5,0,2025-01-11,1
+PT_000284,51,Female,Caucasian,Never,27.2,1,2025-05-20,0
+PT_000285,65,Male,Caucasian,Current,26.4,0,2025-04-12,0
+PT_000286,55,Male,Caucasian,Current,25.5,1,2025-04-09,0
+PT_000287,42,Female,Other,Never,35.7,0,2025-01-20,0
+PT_000288,41,Female,Caucasian,Former,28.1,0,2025-04-26,0
+PT_000289,52,Male,Caucasian,Never,31.8,0,2025-06-08,0
+PT_000290,52,Male,Asian,Never,30.4,0,2025-04-10,0
+PT_000291,60,Female,Caucasian,Never,33.3,0,2025-01-23,0
+PT_000292,56,Female,Caucasian,Never,27.1,0,2025-03-25,0
+PT_000293,47,Female,Caucasian,Never,26.3,0,2025-03-04,0
+PT_000294,41,Female,Hispanic,Never,30.1,0,2025-02-12,0
+PT_000295,47,Male,Caucasian,Never,26.4,0,2025-05-07,0
+PT_000296,59,Female,Caucasian,Former,23.2,0,2025-04-08,0
+PT_000297,40,Male,Caucasian,Never,39.2,0,2025-03-18,0
+PT_000298,30,Male,Caucasian,Never,18.5,0,2025-06-27,0
+PT_000299,69,Male,African American,Former,44.5,0,2025-05-25,1
+PT_000300,44,Male,Hispanic,Former,29.8,0,2025-02-23,0
+PT_000301,51,Male,African American,Former,31.8,1,2025-06-12,0
+PT_000302,39,Female,Caucasian,Former,24.4,0,2025-05-03,0
+PT_000303,29,Male,Hispanic,Former,22.0,0,2025-05-18,0
+PT_000304,36,Female,Other,Never,24.7,0,2025-01-12,0
+PT_000305,54,Male,Caucasian,Never,34.2,0,2025-01-26,0
+PT_000306,83,Female,Caucasian,Never,43.4,0,2025-05-09,1
+PT_000307,47,Male,Caucasian,Never,31.9,1,2025-02-06,0
+PT_000308,50,Male,Caucasian,Never,32.0,1,2025-04-26,0
+PT_000309,37,Female,Caucasian,Current,27.1,1,2025-03-04,0
+PT_000310,62,Female,Caucasian,Former,35.2,1,2025-02-17,0
+PT_000311,64,Female,Hispanic,Former,27.9,1,2025-04-10,1
+PT_000312,59,Female,Caucasian,Former,32.3,0,2025-05-18,0
+PT_000313,39,Male,Caucasian,Current,24.3,0,2025-03-22,0
+PT_000314,64,Male,African American,Never,17.6,1,2025-06-30,0
+PT_000315,49,Female,African American,Former,21.6,0,2025-04-06,0
+PT_000316,47,Male,Caucasian,Never,21.5,1,2025-05-18,0
+PT_000317,34,Male,Caucasian,Never,21.4,0,2025-04-26,0
+PT_000318,33,Female,African American,Never,28.1,1,2025-06-17,0
+PT_000319,52,Female,Caucasian,Never,32.1,0,2025-02-26,0
+PT_000320,36,Female,Hispanic,Former,27.3,0,2025-05-21,0
+PT_000321,55,Male,Other,Never,22.8,0,2025-01-11,0
+PT_000322,57,Female,Caucasian,Former,26.8,0,2025-03-18,0
+PT_000323,60,Female,Hispanic,Former,36.5,0,2025-03-02,0
+PT_000324,64,Female,Caucasian,Former,18.6,1,2025-02-22,0
+PT_000325,52,Male,Caucasian,Former,32.0,0,2025-03-16,1
+PT_000326,59,Male,Caucasian,Former,26.3,0,2025-03-12,0
+PT_000327,48,Female,African American,Never,29.7,1,2025-06-23,0
+PT_000328,35,Female,Caucasian,Never,33.0,0,2025-01-24,0
+PT_000329,53,Female,Hispanic,Former,21.8,0,2025-01-24,0
+PT_000330,42,Female,Caucasian,Former,28.0,0,2025-02-24,0
+PT_000331,73,Male,Caucasian,Former,23.0,0,2025-03-29,1
+PT_000332,54,Female,Caucasian,Former,27.9,1,2025-02-10,0
+PT_000333,75,Male,African American,Never,20.9,0,2025-02-10,0
+PT_000334,73,Male,Caucasian,Never,30.4,1,2025-02-12,1
+PT_000335,61,Female,Caucasian,Former,30.7,0,2025-01-20,0
+PT_000336,49,Male,Caucasian,Former,22.9,1,2025-04-19,0
+PT_000337,70,Male,African American,Former,34.7,1,2025-03-18,0
+PT_000338,46,Male,African American,Never,23.8,0,2025-06-06,0
+PT_000339,60,Male,African American,Never,29.4,0,2025-02-25,0
+PT_000340,55,Male,Caucasian,Former,35.4,0,2025-02-05,0
+PT_000341,81,Female,Caucasian,Former,29.6,1,2025-06-26,1
+PT_000342,83,Male,Caucasian,Never,31.8,0,2025-06-15,0
+PT_000343,56,Female,Asian,Never,27.2,0,2025-05-16,0
+PT_000344,46,Female,Asian,Former,26.8,1,2025-04-04,1
+PT_000345,61,Female,Caucasian,Former,40.0,0,2025-03-09,0
+PT_000346,38,Male,Caucasian,Never,32.3,0,2025-06-29,0
+PT_000347,41,Male,Caucasian,Never,27.1,0,2025-02-09,0
+PT_000348,67,Female,African American,Never,30.8,0,2025-03-04,0
+PT_000349,71,Male,Caucasian,Current,33.5,0,2025-02-14,0
+PT_000350,58,Female,African American,Never,30.3,0,2025-03-08,0
+PT_000351,54,Male,Caucasian,Never,30.0,1,2025-04-20,0
+PT_000352,47,Male,Hispanic,Former,31.0,1,2025-02-12,0
+PT_000353,81,Male,Caucasian,Never,30.9,0,2025-01-01,1
+PT_000354,25,Female,Caucasian,Never,23.8,0,2025-01-10,0
+PT_000355,48,Male,Caucasian,Former,27.1,0,2025-01-20,0
+PT_000356,75,Female,Caucasian,Former,20.1,1,2025-01-18,1
+PT_000357,59,Male,Caucasian,Former,20.2,0,2025-05-25,0
+PT_000358,53,Male,Caucasian,Current,21.9,1,2025-02-20,0
+PT_000359,70,Female,Caucasian,Former,18.3,0,2025-06-12,0
+PT_000360,66,Female,Caucasian,Never,42.9,0,2025-01-27,0
+PT_000361,64,Female,African American,Never,28.9,0,2025-01-24,1
+PT_000362,35,Female,Caucasian,Former,27.5,0,2025-01-25,0
+PT_000363,47,Female,African American,Former,38.2,0,2025-03-02,0
+PT_000364,62,Male,Caucasian,Never,27.3,0,2025-01-20,0
+PT_000365,39,Female,Caucasian,Never,35.1,1,2025-05-18,0
+PT_000366,47,Male,Caucasian,Current,35.6,1,2025-06-25,0
+PT_000367,51,Female,Caucasian,Current,28.9,1,2025-04-02,0
+PT_000368,38,Male,Caucasian,Former,26.0,1,2025-04-26,1
+PT_000369,72,Female,African American,Current,35.3,1,2025-02-26,0
+PT_000370,60,Female,Hispanic,Never,28.1,0,2025-01-20,0
+PT_000371,70,Male,Asian,Never,29.7,0,2025-02-01,0
+PT_000372,51,Male,Asian,Never,25.4,0,2025-04-08,0
+PT_000373,47,Female,Caucasian,Current,25.0,0,2025-06-07,0
+PT_000374,61,Male,African American,Former,30.7,0,2025-04-09,0
+PT_000375,30,Female,Asian,Never,29.0,0,2025-04-02,0
+PT_000376,52,Female,Caucasian,Current,27.0,0,2025-03-23,0
+PT_000377,61,Male,Caucasian,Former,27.8,0,2025-03-01,1
+PT_000378,19,Female,Caucasian,Current,20.6,0,2025-02-26,0
+PT_000379,45,Female,Asian,Never,36.0,0,2025-06-01,0
+PT_000380,76,Female,Caucasian,Never,38.2,1,2025-05-25,1
+PT_000381,58,Male,Caucasian,Former,34.2,0,2025-06-04,0
+PT_000382,78,Female,Caucasian,Never,22.6,0,2025-02-15,1
+PT_000383,70,Male,Caucasian,Current,20.0,0,2025-01-29,1
+PT_000384,38,Female,Hispanic,Current,41.3,0,2025-03-19,1
+PT_000385,43,Female,Caucasian,Former,16.0,1,2025-05-24,0
+PT_000386,52,Male,Asian,Current,31.2,0,2025-06-26,0
+PT_000387,73,Male,African American,Never,29.6,0,2025-05-26,0
+PT_000388,57,Male,African American,Current,42.4,0,2025-01-20,0
+PT_000389,44,Male,African American,Never,29.5,0,2025-03-27,0
+PT_000390,37,Male,Hispanic,Never,33.5,0,2025-01-13,0
+PT_000391,66,Male,Caucasian,Never,20.4,0,2025-01-26,0
+PT_000392,54,Female,Caucasian,Never,30.4,0,2025-03-23,0
+PT_000393,33,Female,African American,Never,41.4,0,2025-01-24,0
+PT_000394,58,Male,Other,Never,30.1,0,2025-04-22,0
+PT_000395,53,Male,Caucasian,Never,32.2,0,2025-05-19,0
+PT_000396,45,Female,Hispanic,Former,32.3,0,2025-01-14,1
+PT_000397,60,Male,Caucasian,Never,31.9,0,2025-02-22,0
+PT_000398,53,Female,Caucasian,Current,35.6,0,2025-06-19,0
+PT_000399,44,Female,Caucasian,Never,29.4,0,2025-03-09,0
+PT_000400,45,Male,Caucasian,Current,33.4,0,2025-06-21,0
+PT_000401,42,Male,Caucasian,Never,17.4,0,2025-05-18,0
+PT_000402,39,Male,Caucasian,Former,25.6,1,2025-05-09,0
+PT_000403,57,Female,Caucasian,Former,25.1,1,2025-02-24,0
+PT_000404,60,Male,Caucasian,Former,24.9,0,2025-02-07,0
+PT_000405,27,Female,Caucasian,Never,30.7,0,2025-05-14,0
+PT_000406,71,Male,Hispanic,Current,25.3,0,2025-01-26,0
+PT_000407,43,Female,Caucasian,Never,32.1,1,2025-03-09,0
+PT_000408,43,Female,African American,Never,31.0,0,2025-06-27,0
+PT_000409,80,Female,Caucasian,Current,29.1,0,2025-04-06,0
+PT_000410,80,Female,Hispanic,Never,38.9,0,2025-02-28,0
+PT_000411,58,Female,Hispanic,Former,31.3,0,2025-01-23,0
+PT_000412,56,Female,Caucasian,Current,25.8,0,2025-05-12,1
+PT_000413,61,Male,Caucasian,Never,25.8,0,2025-02-19,0
+PT_000414,44,Female,African American,Never,32.3,1,2025-03-12,0
+PT_000415,21,Female,African American,Never,32.4,1,2025-06-02,0
+PT_000416,57,Male,Caucasian,Former,28.8,0,2025-06-26,0
+PT_000417,56,Female,Caucasian,Current,31.5,0,2025-06-15,0
+PT_000418,72,Male,Caucasian,Former,24.4,0,2025-05-02,0
+PT_000419,50,Female,Caucasian,Never,39.3,0,2025-06-14,0
+PT_000420,49,Female,Caucasian,Former,29.3,0,2025-06-09,0
+PT_000421,89,Female,Hispanic,Never,34.2,0,2025-05-04,0
+PT_000422,61,Male,Hispanic,Former,33.8,0,2025-03-18,0
+PT_000423,51,Male,African American,Current,30.7,0,2025-06-19,0
+PT_000424,53,Male,Caucasian,Former,21.6,0,2025-04-10,0
+PT_000425,72,Female,Hispanic,Current,23.3,0,2025-05-02,0
+PT_000426,32,Male,Asian,Current,29.7,0,2025-01-25,0
+PT_000427,54,Female,Caucasian,Former,23.1,0,2025-02-27,0
+PT_000428,67,Male,Caucasian,Never,23.3,1,2025-01-14,0
+PT_000429,53,Male,Caucasian,Never,29.8,0,2025-05-16,0
+PT_000430,72,Male,Hispanic,Never,36.0,0,2025-04-28,1
+PT_000431,69,Male,Hispanic,Never,30.2,0,2025-06-12,0
+PT_000432,65,Female,Caucasian,Current,32.1,0,2025-01-23,1
+PT_000433,50,Female,Hispanic,Never,16.0,1,2025-02-21,1
+PT_000434,59,Female,Caucasian,Never,38.9,0,2025-03-05,1
+PT_000435,51,Female,Caucasian,Former,32.2,1,2025-01-12,0
+PT_000436,49,Female,Caucasian,Never,30.5,0,2025-05-06,0
+PT_000437,47,Female,African American,Former,26.0,0,2025-01-06,0
+PT_000438,41,Male,African American,Former,23.5,1,2025-05-17,0
+PT_000439,48,Female,Caucasian,Never,28.8,0,2025-04-17,0
+PT_000440,49,Female,African American,Former,29.0,0,2025-03-19,0
+PT_000441,53,Male,Hispanic,Never,25.7,0,2025-05-11,0
+PT_000442,67,Female,Caucasian,Never,26.9,0,2025-05-14,0
+PT_000443,54,Male,Asian,Current,28.5,0,2025-05-04,0
+PT_000444,56,Male,Asian,Former,26.3,0,2025-01-24,0
+PT_000445,48,Male,Hispanic,Current,28.7,0,2025-03-09,0
+PT_000446,54,Male,Caucasian,Never,26.0,0,2025-04-20,0
+PT_000447,65,Male,Caucasian,Never,27.1,1,2025-04-23,0
+PT_000448,53,Female,Hispanic,Former,33.2,0,2025-04-27,1
+PT_000449,49,Male,Caucasian,Current,16.0,0,2025-06-28,0
+PT_000450,60,Female,African American,Current,32.7,0,2025-04-23,0
+PT_000451,38,Female,Caucasian,Never,28.5,0,2025-02-03,1
+PT_000452,32,Male,Other,Former,26.9,0,2025-06-23,0
+PT_000453,44,Male,Caucasian,Former,24.6,0,2025-06-29,0
+PT_000454,70,Male,African American,Never,23.9,0,2025-05-23,0
+PT_000455,69,Male,Caucasian,Never,30.8,0,2025-02-12,0
+PT_000456,46,Female,Caucasian,Former,30.1,1,2025-04-07,0
+PT_000457,67,Male,Caucasian,Never,32.2,0,2025-03-22,1
+PT_000458,64,Female,Hispanic,Former,16.0,0,2025-01-24,0
+PT_000459,51,Male,Hispanic,Never,29.5,0,2025-03-29,0
+PT_000460,44,Male,Hispanic,Never,32.4,0,2025-06-18,0
+PT_000461,42,Male,Caucasian,Never,26.8,1,2025-03-16,0
+PT_000462,70,Male,Caucasian,Current,32.5,1,2025-04-15,0
+PT_000463,53,Female,Caucasian,Former,25.2,0,2025-02-18,0
+PT_000464,36,Male,Other,Never,30.0,0,2025-04-26,0
+PT_000465,63,Male,African American,Never,23.3,0,2025-04-21,0
+PT_000466,31,Female,Caucasian,Former,21.1,0,2025-06-18,0
+PT_000467,89,Female,Hispanic,Never,24.5,0,2025-04-12,0
+PT_000468,48,Female,African American,Current,36.0,0,2025-05-12,0
+PT_000469,50,Male,Other,Former,20.8,0,2025-06-09,0
+PT_000470,40,Female,Caucasian,Former,21.2,0,2025-06-27,0
+PT_000471,54,Female,Hispanic,Never,17.2,1,2025-06-22,0
+PT_000472,67,Male,Caucasian,Former,34.1,0,2025-04-08,0
+PT_000473,66,Female,Caucasian,Never,20.7,0,2025-02-07,0
+PT_000474,70,Male,Hispanic,Former,22.2,1,2025-06-07,0
+PT_000475,50,Female,Caucasian,Current,35.7,0,2025-06-28,0
+PT_000476,76,Male,African American,Former,30.9,0,2025-05-22,0
+PT_000477,49,Male,Hispanic,Current,21.3,0,2025-06-12,0
+PT_000478,87,Male,Caucasian,Never,34.0,0,2025-06-24,1
+PT_000479,55,Female,African American,Never,27.3,1,2025-05-30,0
+PT_000480,57,Female,Caucasian,Former,20.2,0,2025-01-14,0
+PT_000481,20,Male,Hispanic,Never,26.2,0,2025-03-23,0
+PT_000482,56,Female,Caucasian,Never,31.5,0,2025-03-31,0
+PT_000483,81,Male,Caucasian,Never,28.0,0,2025-05-02,0
+PT_000484,55,Female,Caucasian,Former,29.4,1,2025-06-09,0
+PT_000485,71,Female,Caucasian,Never,28.8,0,2025-03-14,0
+PT_000486,60,Male,Caucasian,Current,33.8,0,2025-06-16,1
+PT_000487,59,Male,Hispanic,Never,35.0,1,2025-01-17,0
+PT_000488,71,Female,African American,Current,21.6,0,2025-06-29,0
+PT_000489,54,Male,Caucasian,Former,26.8,0,2025-04-28,0
+PT_000490,67,Female,African American,Never,24.8,1,2025-02-28,0
+PT_000491,77,Male,Hispanic,Former,28.5,0,2025-05-17,1
+PT_000492,74,Female,African American,Never,33.8,0,2025-05-09,0
+PT_000493,63,Male,Caucasian,Never,28.8,0,2025-06-19,0
+PT_000494,68,Female,Asian,Never,34.3,0,2025-06-12,1
+PT_000495,73,Male,Caucasian,Former,28.4,0,2025-01-11,0
+PT_000496,77,Male,Caucasian,Never,22.7,0,2025-04-16,0
+PT_000497,46,Male,Hispanic,Current,22.5,0,2025-02-16,0
+PT_000498,73,Female,Caucasian,Former,31.4,0,2025-05-21,0
+PT_000499,50,Female,African American,Current,24.3,0,2025-02-02,0
+PT_000500,43,Male,Caucasian,Never,21.7,0,2025-06-07,0
+PT_000501,45,Female,Caucasian,Never,36.7,0,2025-01-02,0
+PT_000502,42,Female,Caucasian,Never,29.0,0,2025-05-03,0
+PT_000503,59,Male,Caucasian,Current,26.1,1,2025-03-13,1
+PT_000504,66,Female,Hispanic,Never,21.5,1,2025-01-05,0
+PT_000505,31,Female,Caucasian,Current,29.5,0,2025-05-19,0
+PT_000506,38,Female,Caucasian,Never,29.2,1,2025-02-04,0
+PT_000507,45,Male,Caucasian,Never,20.5,0,2025-06-07,0
+PT_000508,53,Female,Caucasian,Former,21.5,1,2025-02-07,0
+PT_000509,64,Female,Caucasian,Current,28.8,0,2025-03-01,1
+PT_000510,45,Female,Hispanic,Never,35.5,0,2025-06-16,0
+PT_000511,41,Male,Caucasian,Never,32.8,0,2025-06-17,0
+PT_000512,60,Female,Hispanic,Never,23.2,0,2025-04-01,0
+PT_000513,72,Male,Caucasian,Never,31.5,0,2025-02-28,0
+PT_000514,58,Male,Caucasian,Never,37.3,1,2025-06-19,1
+PT_000515,59,Male,Caucasian,Never,28.4,0,2025-04-16,0
+PT_000516,54,Female,African American,Former,31.3,1,2025-02-12,0
+PT_000517,69,Male,Caucasian,Current,17.3,0,2025-06-19,0
+PT_000518,34,Male,African American,Never,22.9,1,2025-04-16,0
+PT_000519,50,Female,Caucasian,Never,26.6,1,2025-04-27,0
+PT_000520,44,Male,Caucasian,Current,19.6,0,2025-05-10,0
+PT_000521,48,Female,African American,Current,27.7,0,2025-05-17,1
+PT_000522,44,Female,Hispanic,Former,22.4,0,2025-06-23,0
+PT_000523,58,Male,Caucasian,Never,23.5,0,2025-05-04,0
+PT_000524,49,Female,Caucasian,Never,38.8,0,2025-01-22,1
+PT_000525,56,Male,African American,Never,28.6,0,2025-05-14,0
+PT_000526,45,Female,Caucasian,Former,25.6,0,2025-06-16,0
+PT_000527,34,Female,Caucasian,Former,32.8,0,2025-02-22,0
+PT_000528,42,Male,Hispanic,Former,34.7,0,2025-05-28,0
+PT_000529,61,Female,Hispanic,Former,27.0,0,2025-06-29,0
+PT_000530,74,Male,Hispanic,Former,39.1,0,2025-01-14,0
+PT_000531,64,Male,African American,Former,29.6,0,2025-01-23,0
+PT_000532,33,Male,Asian,Former,27.2,0,2025-06-17,0
+PT_000533,74,Female,Caucasian,Former,17.5,0,2025-02-21,0
+PT_000534,56,Male,African American,Current,29.4,1,2025-06-07,0
+PT_000535,46,Male,Caucasian,Former,32.2,1,2025-04-13,1
+PT_000536,52,Female,Caucasian,Former,20.8,1,2025-03-14,0
+PT_000537,71,Female,Caucasian,Never,24.7,0,2025-04-27,0
+PT_000538,78,Female,Hispanic,Former,24.6,0,2025-03-29,0
+PT_000539,32,Female,Other,Never,24.2,0,2025-04-07,0
+PT_000540,44,Female,African American,Current,28.3,0,2025-01-08,0
+PT_000541,43,Male,African American,Never,30.6,0,2025-03-22,0
+PT_000542,83,Female,Caucasian,Never,33.7,0,2025-03-29,1
+PT_000543,63,Male,Caucasian,Never,26.8,0,2025-06-24,0
+PT_000544,61,Male,Caucasian,Never,24.2,0,2025-03-05,0
+PT_000545,56,Male,Hispanic,Never,22.0,0,2025-01-02,0
+PT_000546,66,Female,Caucasian,Former,23.1,1,2025-05-28,0
+PT_000547,37,Female,Caucasian,Former,28.7,1,2025-04-19,0
+PT_000548,42,Male,Caucasian,Never,27.7,0,2025-06-28,0
+PT_000549,60,Female,Caucasian,Never,25.1,0,2025-06-06,0
+PT_000550,42,Female,Caucasian,Never,30.4,0,2025-05-08,0
+PT_000551,44,Female,Hispanic,Former,18.5,0,2025-05-28,0
+PT_000552,53,Female,Caucasian,Current,27.9,0,2025-02-08,0
+PT_000553,57,Male,Caucasian,Former,24.1,1,2025-03-22,0
+PT_000554,58,Female,Caucasian,Never,25.7,0,2025-05-02,0
+PT_000555,62,Male,Caucasian,Former,28.5,0,2025-03-30,0
+PT_000556,42,Female,Hispanic,Never,34.3,1,2025-03-14,0
+PT_000557,49,Male,African American,Current,26.1,0,2025-04-29,0
+PT_000558,58,Male,Caucasian,Never,26.6,0,2025-04-14,0
+PT_000559,48,Female,Hispanic,Current,24.3,0,2025-06-04,0
+PT_000560,47,Male,Caucasian,Never,29.8,0,2025-04-26,0
+PT_000561,58,Male,Caucasian,Current,33.1,0,2025-01-21,1
+PT_000562,18,Male,Caucasian,Never,25.7,0,2025-04-12,0
+PT_000563,57,Female,African American,Never,36.7,0,2025-03-21,1
+PT_000564,35,Female,Caucasian,Current,37.4,0,2025-06-19,0
+PT_000565,76,Male,African American,Never,26.7,0,2025-02-04,0
+PT_000566,35,Female,Asian,Never,26.6,1,2025-04-22,0
+PT_000567,47,Female,Caucasian,Never,31.0,0,2025-03-20,0
+PT_000568,53,Female,Asian,Never,27.9,1,2025-03-15,0
+PT_000569,34,Female,Caucasian,Current,22.2,0,2025-03-16,0
+PT_000570,44,Female,Caucasian,Former,31.2,0,2025-06-15,0
+PT_000571,62,Female,African American,Never,20.0,0,2025-06-06,0
+PT_000572,59,Female,African American,Never,31.9,0,2025-01-18,0
+PT_000573,76,Male,Caucasian,Never,39.0,0,2025-01-05,0
+PT_000574,55,Female,Caucasian,Never,30.9,0,2025-01-03,0
+PT_000575,30,Female,Caucasian,Former,30.0,1,2025-04-06,0
+PT_000576,69,Male,Hispanic,Never,30.6,0,2025-04-11,1
+PT_000577,26,Male,African American,Never,37.2,0,2025-03-05,0
+PT_000578,50,Female,African American,Never,24.6,0,2025-05-14,0
+PT_000579,54,Male,Caucasian,Former,21.9,1,2025-01-11,0
+PT_000580,56,Female,Caucasian,Never,30.4,0,2025-06-20,0
+PT_000581,59,Female,African American,Never,27.9,0,2025-03-04,0
+PT_000582,71,Male,Caucasian,Former,32.0,0,2025-05-08,0
+PT_000583,42,Female,Hispanic,Never,28.2,1,2025-02-02,0
+PT_000584,53,Male,Caucasian,Never,24.5,0,2025-04-02,0
+PT_000585,38,Female,African American,Never,25.0,0,2025-02-18,0
+PT_000586,64,Female,Caucasian,Never,33.5,0,2025-05-22,1
+PT_000587,32,Male,African American,Never,27.9,0,2025-06-13,0
+PT_000588,45,Female,Caucasian,Former,22.1,0,2025-01-17,0
+PT_000589,46,Male,Caucasian,Former,34.6,1,2025-03-14,0
+PT_000590,61,Female,Caucasian,Never,25.2,0,2025-02-15,0
+PT_000591,33,Female,Caucasian,Never,26.4,0,2025-05-06,1
+PT_000592,37,Male,Caucasian,Former,18.7,0,2025-02-23,0
+PT_000593,65,Male,Hispanic,Never,20.2,1,2025-04-17,1
+PT_000594,63,Male,Caucasian,Never,29.8,0,2025-03-19,0
+PT_000595,55,Male,Caucasian,Former,35.2,0,2025-06-18,0
+PT_000596,45,Female,Hispanic,Never,32.5,1,2025-05-28,0
+PT_000597,45,Female,Asian,Current,22.1,0,2025-03-28,0
+PT_000598,38,Female,African American,Former,31.9,1,2025-04-06,0
+PT_000599,45,Female,Caucasian,Never,32.5,0,2025-03-07,1
+PT_000600,66,Female,Other,Never,27.6,0,2025-02-04,0
+PT_000601,68,Male,Caucasian,Never,18.1,1,2025-06-26,0
+PT_000602,55,Female,Caucasian,Never,32.0,0,2025-05-30,0
+PT_000603,57,Male,African American,Never,25.2,0,2025-03-25,0
+PT_000604,60,Female,Caucasian,Former,16.0,0,2025-01-21,0
+PT_000605,54,Male,African American,Former,18.5,1,2025-02-28,0
+PT_000606,47,Male,Caucasian,Former,27.5,0,2025-03-23,0
+PT_000607,49,Female,Caucasian,Never,26.7,1,2025-06-02,1
+PT_000608,54,Female,Caucasian,Never,20.9,0,2025-05-27,0
+PT_000609,45,Female,African American,Never,28.2,0,2025-02-04,0
+PT_000610,55,Female,Caucasian,Current,32.1,1,2025-03-05,0
+PT_000611,48,Female,African American,Never,30.5,0,2025-04-19,0
+PT_000612,65,Male,Caucasian,Current,20.1,1,2025-06-07,0
+PT_000613,56,Male,African American,Never,18.4,0,2025-02-09,0
+PT_000614,76,Male,Caucasian,Never,28.9,0,2025-03-15,0
+PT_000615,59,Female,Caucasian,Former,34.2,0,2025-02-24,0
+PT_000616,73,Male,Caucasian,Never,29.0,1,2025-06-21,0
+PT_000617,74,Male,Caucasian,Former,30.6,0,2025-03-11,0
+PT_000618,56,Female,Caucasian,Never,27.0,0,2025-04-03,0
+PT_000619,36,Male,Caucasian,Never,28.8,0,2025-03-22,0
+PT_000620,85,Female,Caucasian,Never,30.9,1,2025-01-06,1
+PT_000621,47,Female,Hispanic,Former,31.5,0,2025-04-01,0
+PT_000622,87,Male,Caucasian,Current,24.0,0,2025-01-08,1
+PT_000623,34,Male,Caucasian,Former,27.2,0,2025-04-08,0
+PT_000624,46,Male,African American,Former,33.7,0,2025-06-04,0
+PT_000625,47,Male,Caucasian,Current,35.5,0,2025-02-05,0
+PT_000626,65,Male,Caucasian,Current,26.0,1,2025-05-25,1
+PT_000627,65,Female,Caucasian,Former,23.9,0,2025-03-23,0
+PT_000628,60,Male,Caucasian,Former,30.8,0,2025-03-12,0
+PT_000629,40,Male,African American,Never,23.8,0,2025-05-26,0
+PT_000630,63,Female,Caucasian,Never,22.7,0,2025-05-09,0
+PT_000631,78,Male,Asian,Current,29.9,1,2025-02-27,0
+PT_000632,55,Female,Hispanic,Never,25.8,0,2025-02-21,0
+PT_000633,33,Female,African American,Never,32.0,0,2025-03-05,0
+PT_000634,26,Male,Caucasian,Never,26.6,0,2025-05-18,0
+PT_000635,41,Male,Caucasian,Never,27.6,0,2025-03-04,0
+PT_000636,27,Female,Caucasian,Never,32.0,0,2025-03-16,0
+PT_000637,67,Female,Caucasian,Never,24.3,1,2025-05-13,0
+PT_000638,41,Female,Caucasian,Never,26.2,0,2025-06-28,0
+PT_000639,59,Female,African American,Current,26.2,0,2025-02-21,0
+PT_000640,73,Female,Caucasian,Former,32.5,0,2025-02-01,0
+PT_000641,67,Female,Caucasian,Never,26.1,0,2025-06-06,0
+PT_000642,59,Male,Caucasian,Never,30.6,0,2025-02-08,0
+PT_000643,67,Male,Caucasian,Former,37.9,1,2025-06-10,0
+PT_000644,53,Female,Caucasian,Former,27.6,0,2025-05-08,0
+PT_000645,53,Female,African American,Former,27.4,0,2025-01-21,1
+PT_000646,67,Male,Hispanic,Former,29.8,0,2025-02-07,0
+PT_000647,68,Male,Caucasian,Never,29.8,0,2025-01-23,0
+PT_000648,57,Female,Hispanic,Never,24.5,1,2025-05-27,0
+PT_000649,45,Male,Hispanic,Current,31.8,1,2025-03-24,0
+PT_000650,51,Female,Caucasian,Former,23.7,0,2025-02-01,0
+PT_000651,49,Female,Caucasian,Current,27.4,0,2025-06-11,0
+PT_000652,50,Female,Caucasian,Former,30.1,0,2025-06-09,0
+PT_000653,56,Male,Caucasian,Never,32.3,0,2025-06-06,1
+PT_000654,70,Female,Caucasian,Never,16.0,0,2025-02-23,0
+PT_000655,58,Male,Caucasian,Never,32.1,0,2025-06-13,1
+PT_000656,47,Male,Hispanic,Never,32.5,0,2025-06-25,0
+PT_000657,76,Male,Caucasian,Former,23.7,0,2025-05-03,0
+PT_000658,30,Male,Hispanic,Never,30.3,0,2025-03-27,0
+PT_000659,73,Female,Hispanic,Current,28.6,0,2025-05-18,0
+PT_000660,61,Female,African American,Current,23.6,0,2025-03-13,0
+PT_000661,73,Female,African American,Never,34.2,1,2025-06-02,1
+PT_000662,64,Female,Caucasian,Never,24.1,1,2025-05-08,0
+PT_000663,67,Male,Hispanic,Current,25.4,1,2025-02-21,0
+PT_000664,53,Female,Caucasian,Current,21.1,0,2025-05-04,0
+PT_000665,64,Male,Caucasian,Former,28.0,0,2025-06-23,1
+PT_000666,47,Male,Caucasian,Current,22.0,1,2025-01-12,0
+PT_000667,78,Male,Caucasian,Never,29.4,0,2025-03-21,0
+PT_000668,49,Male,Caucasian,Never,24.7,0,2025-04-23,0
+PT_000669,37,Female,Caucasian,Former,26.0,0,2025-02-22,0
+PT_000670,43,Female,Caucasian,Never,38.6,0,2025-01-19,1
+PT_000671,68,Male,African American,Current,29.9,0,2025-04-09,0
+PT_000672,45,Male,African American,Former,25.3,0,2025-04-25,0
+PT_000673,49,Female,Caucasian,Never,26.8,0,2025-04-30,0
+PT_000674,56,Female,Asian,Never,31.7,0,2025-05-01,0
+PT_000675,51,Female,Caucasian,Never,28.2,0,2025-03-25,0
+PT_000676,49,Male,Caucasian,Former,26.6,1,2025-03-31,0
+PT_000677,59,Female,African American,Never,21.3,0,2025-01-19,0
+PT_000678,45,Female,Hispanic,Never,31.1,0,2025-05-04,0
+PT_000679,64,Female,Caucasian,Former,35.0,0,2025-03-02,1
+PT_000680,70,Male,African American,Former,39.4,0,2025-04-24,0
+PT_000681,34,Male,Caucasian,Never,28.5,0,2025-03-25,0
+PT_000682,55,Female,Caucasian,Never,19.7,0,2025-01-01,0
+PT_000683,63,Female,Asian,Current,24.6,0,2025-06-24,0
+PT_000684,38,Female,Hispanic,Current,24.0,1,2025-01-23,0
+PT_000685,72,Female,Caucasian,Never,27.8,1,2025-01-14,0
+PT_000686,45,Female,Caucasian,Never,30.8,1,2025-06-01,0
+PT_000687,60,Female,Hispanic,Never,32.8,0,2025-02-05,0
+PT_000688,75,Male,African American,Never,28.7,0,2025-02-04,0
+PT_000689,71,Female,Hispanic,Former,35.4,0,2025-01-22,0
+PT_000690,37,Female,Caucasian,Never,27.4,0,2025-04-27,1
+PT_000691,60,Female,Caucasian,Never,24.5,0,2025-05-08,0
+PT_000692,41,Female,Other,Never,28.4,0,2025-05-26,0
+PT_000693,49,Male,Caucasian,Former,28.6,0,2025-03-13,0
+PT_000694,38,Female,African American,Current,20.5,0,2025-06-25,1
+PT_000695,39,Female,Caucasian,Current,27.3,0,2025-04-27,0
+PT_000696,48,Female,African American,Former,20.8,1,2025-01-10,0
+PT_000697,36,Female,Hispanic,Former,24.2,0,2025-02-13,0
+PT_000698,76,Female,Caucasian,Never,32.3,0,2025-05-10,1
+PT_000699,30,Male,African American,Never,21.5,1,2025-01-29,0
+PT_000700,30,Male,Caucasian,Never,29.0,1,2025-03-02,0
+PT_000701,67,Female,Hispanic,Never,20.0,0,2025-02-09,0
+PT_000702,31,Male,African American,Former,23.7,1,2025-02-23,0
+PT_000703,39,Male,Caucasian,Former,29.0,0,2025-04-13,0
+PT_000704,86,Female,Caucasian,Never,28.7,0,2025-04-22,0
+PT_000705,72,Female,African American,Former,23.9,0,2025-01-25,0
+PT_000706,54,Female,Hispanic,Former,35.1,0,2025-01-26,0
+PT_000707,34,Male,Caucasian,Never,27.3,1,2025-02-19,0
+PT_000708,60,Female,Caucasian,Former,29.3,0,2025-04-16,1
+PT_000709,82,Male,Asian,Former,34.6,0,2025-06-08,1
+PT_000710,69,Male,Hispanic,Former,33.5,0,2025-06-04,0
+PT_000711,34,Female,Hispanic,Former,18.3,0,2025-01-20,0
+PT_000712,57,Male,Caucasian,Never,29.9,1,2025-03-07,0
+PT_000713,57,Male,African American,Never,29.9,0,2025-03-09,0
+PT_000714,58,Female,African American,Never,35.5,1,2025-04-21,0
+PT_000715,55,Female,Caucasian,Former,26.7,0,2025-03-06,0
+PT_000716,62,Female,Caucasian,Never,31.8,0,2025-03-10,0
+PT_000717,36,Male,Caucasian,Never,32.8,0,2025-04-22,0
+PT_000718,67,Female,Caucasian,Never,32.5,1,2025-05-04,0
+PT_000719,69,Female,Caucasian,Never,31.5,0,2025-06-15,0
+PT_000720,20,Male,Caucasian,Never,23.8,1,2025-02-15,0
+PT_000721,72,Male,Caucasian,Never,31.8,0,2025-05-05,0
+PT_000722,35,Female,Caucasian,Current,34.1,0,2025-05-06,0
+PT_000723,59,Male,Caucasian,Never,28.6,0,2025-01-05,0
+PT_000724,66,Male,Asian,Never,23.7,1,2025-06-23,0
+PT_000725,71,Male,African American,Never,24.4,1,2025-05-01,1
+PT_000726,57,Male,Hispanic,Never,26.2,0,2025-03-20,0
+PT_000727,58,Male,Caucasian,Former,24.8,0,2025-06-02,0
+PT_000728,70,Male,Caucasian,Current,33.4,1,2025-03-25,1
+PT_000729,51,Male,Hispanic,Never,30.4,0,2025-02-14,0
+PT_000730,58,Male,Hispanic,Former,27.6,0,2025-03-04,0
+PT_000731,56,Male,African American,Former,28.5,0,2025-05-05,0
+PT_000732,51,Female,Caucasian,Never,24.3,0,2025-05-02,0
+PT_000733,36,Male,African American,Former,23.7,0,2025-01-10,1
+PT_000734,69,Male,African American,Current,41.9,0,2025-03-02,0
+PT_000735,57,Female,Caucasian,Never,19.8,1,2025-04-29,0
+PT_000736,46,Male,Caucasian,Never,28.2,1,2025-05-02,0
+PT_000737,63,Male,Caucasian,Never,20.3,0,2025-06-07,0
+PT_000738,48,Male,African American,Former,28.4,0,2025-01-08,0
+PT_000739,63,Male,Caucasian,Never,26.0,0,2025-06-23,0
+PT_000740,59,Female,Caucasian,Never,26.4,1,2025-04-07,0
+PT_000741,49,Male,African American,Current,30.0,1,2025-02-15,1
+PT_000742,44,Male,Hispanic,Never,26.5,1,2025-06-27,0
+PT_000743,35,Male,Caucasian,Former,22.8,1,2025-03-17,0
+PT_000744,18,Female,Hispanic,Never,29.0,0,2025-05-14,0
+PT_000745,55,Male,Hispanic,Former,33.5,1,2025-03-05,0
+PT_000746,51,Female,African American,Never,28.6,0,2025-01-02,0
+PT_000747,61,Male,Caucasian,Former,23.3,0,2025-06-28,0
+PT_000748,62,Male,Caucasian,Former,31.3,1,2025-02-25,0
+PT_000749,54,Female,Caucasian,Never,26.6,0,2025-05-27,0
+PT_000750,39,Male,Hispanic,Never,22.6,0,2025-04-05,0
+PT_000751,48,Male,Hispanic,Never,36.2,0,2025-01-09,0
+PT_000752,24,Female,Hispanic,Never,26.7,0,2025-01-15,0
+PT_000753,41,Male,Caucasian,Former,33.6,1,2025-04-04,0
+PT_000754,67,Male,Hispanic,Former,31.9,0,2025-05-19,0
+PT_000755,50,Male,Caucasian,Never,24.6,0,2025-05-09,0
+PT_000756,49,Female,Caucasian,Never,19.8,0,2025-05-01,0
+PT_000757,65,Male,Caucasian,Current,37.8,0,2025-01-17,0
+PT_000758,58,Male,Caucasian,Current,30.3,0,2025-01-28,0
+PT_000759,36,Male,Caucasian,Never,32.0,0,2025-03-17,1
+PT_000760,81,Male,Hispanic,Never,32.1,0,2025-02-18,0
+PT_000761,47,Female,Caucasian,Former,23.9,0,2025-06-17,0
+PT_000762,56,Female,Hispanic,Never,33.0,0,2025-03-08,0
+PT_000763,48,Female,Caucasian,Never,25.6,0,2025-02-12,0
+PT_000764,58,Female,Caucasian,Never,30.1,0,2025-02-09,0
+PT_000765,35,Male,Caucasian,Never,16.3,1,2025-01-09,0
+PT_000766,41,Male,Asian,Current,31.5,1,2025-01-07,0
+PT_000767,67,Female,Caucasian,Never,27.0,0,2025-05-20,0
+PT_000768,42,Female,Caucasian,Never,19.3,0,2025-05-27,0
+PT_000769,43,Female,African American,Never,26.3,0,2025-06-23,0
+PT_000770,43,Male,Hispanic,Former,23.1,1,2025-06-05,0
+PT_000771,39,Female,Caucasian,Never,16.0,0,2025-04-25,0
+PT_000772,49,Female,Caucasian,Never,30.2,0,2025-06-20,0
+PT_000773,59,Female,Hispanic,Never,26.1,0,2025-04-25,0
+PT_000774,53,Male,Caucasian,Never,23.1,0,2025-04-19,0
+PT_000775,87,Female,Caucasian,Never,33.4,0,2025-03-27,0
+PT_000776,37,Male,Caucasian,Current,29.7,0,2025-05-23,0
+PT_000777,61,Female,Caucasian,Former,23.8,1,2025-03-19,0
+PT_000778,62,Female,Caucasian,Never,22.4,0,2025-06-13,0
+PT_000779,56,Male,African American,Never,22.4,0,2025-01-31,0
+PT_000780,43,Male,Caucasian,Former,24.1,1,2025-03-08,0
+PT_000781,66,Male,Caucasian,Never,29.8,0,2025-05-29,0
+PT_000782,66,Male,Caucasian,Former,29.5,1,2025-04-02,1
+PT_000783,27,Female,Caucasian,Former,24.8,0,2025-02-12,0
+PT_000784,56,Female,Caucasian,Never,27.0,0,2025-04-01,0
+PT_000785,58,Male,Hispanic,Former,34.0,0,2025-01-27,0
+PT_000786,49,Male,Caucasian,Current,20.6,1,2025-05-17,0
+PT_000787,43,Female,Caucasian,Never,28.4,0,2025-01-05,0
+PT_000788,60,Male,Caucasian,Current,32.0,1,2025-03-29,1
+PT_000789,64,Female,African American,Former,42.8,1,2025-02-02,0
+PT_000790,61,Male,Caucasian,Current,28.8,1,2025-04-21,0
+PT_000791,55,Male,African American,Never,19.5,0,2025-01-03,1
+PT_000792,73,Female,Caucasian,Current,17.0,0,2025-02-07,0
+PT_000793,49,Male,Caucasian,Former,27.2,0,2025-05-10,0
+PT_000794,77,Male,Asian,Current,28.4,0,2025-05-18,0
+PT_000795,22,Male,Hispanic,Current,32.9,0,2025-02-17,0
+PT_000796,85,Male,Caucasian,Never,37.6,0,2025-04-15,1
+PT_000797,51,Female,Caucasian,Never,27.2,0,2025-03-15,0
+PT_000798,69,Female,Caucasian,Current,26.9,1,2025-06-25,1
+PT_000799,67,Male,Other,Never,26.4,1,2025-05-02,0
+PT_000800,51,Female,Caucasian,Former,25.3,1,2025-06-18,0
+PT_000801,89,Female,Caucasian,Current,33.7,0,2025-02-13,1
+PT_000802,53,Female,Hispanic,Former,23.4,0,2025-04-19,0
+PT_000803,43,Female,Caucasian,Never,24.4,0,2025-06-20,0
+PT_000804,35,Male,Caucasian,Former,28.3,0,2025-05-06,0
+PT_000805,68,Female,Caucasian,Former,26.9,1,2025-01-07,1
+PT_000806,57,Male,Caucasian,Never,19.4,0,2025-05-14,0
+PT_000807,21,Male,Other,Current,24.6,1,2025-05-19,0
+PT_000808,51,Male,Caucasian,Current,28.7,0,2025-04-07,0
+PT_000809,44,Female,Caucasian,Never,29.8,0,2025-05-06,0
+PT_000810,39,Male,Caucasian,Never,26.8,0,2025-06-25,0
+PT_000811,44,Female,Caucasian,Never,19.4,1,2025-06-07,0
+PT_000812,61,Female,Caucasian,Never,21.0,0,2025-03-31,0
+PT_000813,49,Female,African American,Current,24.3,1,2025-01-15,0
+PT_000814,63,Male,Caucasian,Current,33.6,0,2025-03-28,0
+PT_000815,70,Male,Other,Never,28.9,0,2025-03-10,0
+PT_000816,71,Female,Caucasian,Former,32.7,0,2025-05-06,1
+PT_000817,45,Female,African American,Current,32.3,1,2025-03-18,0
+PT_000818,53,Female,Hispanic,Former,29.5,0,2025-02-24,0
+PT_000819,65,Male,Caucasian,Never,30.7,0,2025-05-29,0
+PT_000820,48,Female,Caucasian,Never,24.0,1,2025-01-20,0
+PT_000821,34,Male,Hispanic,Former,27.5,0,2025-06-09,0
+PT_000822,63,Female,Caucasian,Former,41.5,0,2025-05-08,0
+PT_000823,75,Male,Caucasian,Never,25.0,1,2025-04-22,1
+PT_000824,57,Female,Caucasian,Current,17.2,1,2025-06-25,0
+PT_000825,53,Male,Caucasian,Former,32.3,0,2025-04-16,1
+PT_000826,79,Female,Caucasian,Former,29.5,0,2025-02-19,0
+PT_000827,58,Male,Caucasian,Former,32.0,0,2025-01-10,0
+PT_000828,70,Male,Caucasian,Current,26.9,0,2025-01-11,0
+PT_000829,66,Female,African American,Current,24.5,0,2025-01-17,0
+PT_000830,56,Male,Caucasian,Former,34.7,0,2025-02-05,0
+PT_000831,48,Male,Hispanic,Never,28.2,0,2025-03-06,0
+PT_000832,64,Male,Caucasian,Current,26.8,0,2025-03-02,0
+PT_000833,71,Male,Caucasian,Never,30.3,0,2025-05-31,0
+PT_000834,40,Female,Caucasian,Current,34.4,0,2025-02-07,0
+PT_000835,56,Male,Caucasian,Never,26.6,0,2025-06-19,0
+PT_000836,75,Female,Caucasian,Current,35.5,0,2025-06-25,0
+PT_000837,44,Male,Caucasian,Current,39.3,1,2025-03-07,0
+PT_000838,72,Female,Hispanic,Never,21.4,1,2025-03-23,0
+PT_000839,40,Female,African American,Current,28.8,0,2025-05-06,0
+PT_000840,54,Female,African American,Former,29.8,0,2025-06-28,0
+PT_000841,56,Male,African American,Former,21.1,1,2025-01-08,0
+PT_000842,48,Male,Caucasian,Never,34.4,0,2025-06-10,0
+PT_000843,67,Female,Caucasian,Current,20.9,1,2025-02-03,1
+PT_000844,66,Male,Caucasian,Never,20.3,0,2025-06-01,0
+PT_000845,60,Male,Asian,Current,40.2,1,2025-05-27,0
+PT_000846,73,Female,Caucasian,Current,30.1,1,2025-02-13,0
+PT_000847,52,Female,Hispanic,Never,22.0,1,2025-01-04,0
+PT_000848,51,Male,Caucasian,Never,33.9,1,2025-03-10,0
+PT_000849,58,Male,Caucasian,Current,31.1,1,2025-06-23,0
+PT_000850,40,Female,Caucasian,Never,33.9,0,2025-03-05,0
+PT_000851,46,Female,African American,Never,19.8,1,2025-04-12,0
+PT_000852,69,Female,Other,Current,25.2,0,2025-03-27,0
+PT_000853,71,Female,Caucasian,Never,28.0,0,2025-01-12,0
+PT_000854,63,Male,Caucasian,Current,29.0,0,2025-05-24,1
+PT_000855,51,Female,Caucasian,Never,22.1,1,2025-03-23,0
+PT_000856,54,Female,Asian,Never,16.0,0,2025-03-13,0
+PT_000857,43,Female,African American,Never,38.5,0,2025-05-13,0
+PT_000858,45,Male,Caucasian,Never,24.1,1,2025-06-18,0
+PT_000859,48,Female,Caucasian,Never,28.4,0,2025-06-30,0
+PT_000860,71,Male,Caucasian,Never,33.4,0,2025-05-07,1
+PT_000861,54,Male,African American,Current,18.9,0,2025-02-13,0
+PT_000862,64,Female,African American,Current,25.8,1,2025-04-17,0
+PT_000863,64,Male,Hispanic,Never,31.6,1,2025-06-24,0
+PT_000864,35,Female,African American,Never,28.8,0,2025-06-18,0
+PT_000865,44,Male,Caucasian,Never,35.4,0,2025-04-26,0
+PT_000866,54,Female,Caucasian,Never,20.9,0,2025-01-15,0
+PT_000867,78,Male,Caucasian,Never,33.4,0,2025-04-13,0
+PT_000868,66,Female,African American,Current,32.2,0,2025-02-09,0
+PT_000869,41,Male,Caucasian,Current,20.1,0,2025-04-02,0
+PT_000870,67,Female,African American,Never,30.9,0,2025-04-19,1
+PT_000871,75,Male,Asian,Never,26.9,0,2025-03-29,1
+PT_000872,26,Female,Caucasian,Current,32.4,0,2025-04-30,0
+PT_000873,43,Male,Caucasian,Current,27.6,0,2025-03-05,0
+PT_000874,72,Female,Caucasian,Former,32.3,0,2025-04-16,1
+PT_000875,31,Female,Caucasian,Never,30.0,0,2025-06-19,0
+PT_000876,55,Female,Caucasian,Current,21.8,0,2025-04-27,0
+PT_000877,54,Male,Caucasian,Never,21.4,0,2025-01-21,1
+PT_000878,33,Female,Caucasian,Former,29.0,0,2025-06-17,0
+PT_000879,43,Male,Caucasian,Never,20.1,1,2025-06-26,1
+PT_000880,61,Male,African American,Never,25.5,0,2025-02-18,0
+PT_000881,75,Male,Caucasian,Never,32.6,1,2025-02-18,1
+PT_000882,39,Male,Hispanic,Former,30.1,1,2025-06-29,0
+PT_000883,56,Female,Other,Current,28.0,0,2025-04-11,0
+PT_000884,58,Female,Caucasian,Former,27.8,0,2025-05-22,0
+PT_000885,55,Male,Caucasian,Never,30.0,1,2025-05-05,0
+PT_000886,60,Female,Caucasian,Never,26.0,1,2025-04-17,0
+PT_000887,49,Male,African American,Former,31.2,0,2025-05-01,0
+PT_000888,26,Female,Asian,Current,30.0,0,2025-06-18,0
+PT_000889,63,Male,Caucasian,Former,19.0,0,2025-05-01,0
+PT_000890,64,Female,Asian,Never,33.1,1,2025-02-21,0
+PT_000891,48,Male,Caucasian,Current,31.2,0,2025-01-05,0
+PT_000892,37,Male,Caucasian,Never,31.1,0,2025-03-28,0
+PT_000893,57,Male,Hispanic,Current,21.9,0,2025-01-12,0
+PT_000894,68,Female,Other,Former,25.2,0,2025-01-13,0
+PT_000895,61,Male,Caucasian,Never,16.3,1,2025-06-06,0
+PT_000896,61,Female,Hispanic,Never,31.6,0,2025-04-03,0
+PT_000897,51,Male,Caucasian,Never,30.5,0,2025-04-04,0
+PT_000898,45,Male,Caucasian,Former,33.2,0,2025-05-02,0
+PT_000899,68,Female,Hispanic,Never,35.3,0,2025-03-04,0
+PT_000900,71,Female,Asian,Never,25.8,0,2025-04-28,0
+PT_000901,60,Female,Caucasian,Former,27.0,0,2025-05-13,0
+PT_000902,44,Male,Other,Current,22.1,0,2025-01-10,0
+PT_000903,29,Female,African American,Never,33.4,0,2025-03-17,0
+PT_000904,48,Female,Caucasian,Never,25.8,0,2025-05-16,0
+PT_000905,42,Female,Hispanic,Current,29.6,1,2025-06-16,0
+PT_000906,51,Male,Caucasian,Never,20.1,1,2025-04-10,0
+PT_000907,31,Male,Caucasian,Current,27.1,0,2025-03-21,0
+PT_000908,48,Male,African American,Current,16.0,0,2025-03-19,0
+PT_000909,74,Male,Caucasian,Former,30.3,1,2025-02-01,1
+PT_000910,69,Male,Caucasian,Never,16.0,0,2025-03-02,0
+PT_000911,63,Male,Caucasian,Never,32.0,1,2025-06-22,0
+PT_000912,73,Female,Caucasian,Never,32.8,0,2025-04-27,0
+PT_000913,73,Female,African American,Never,31.7,0,2025-04-25,0
+PT_000914,24,Female,African American,Never,16.0,1,2025-05-08,0
+PT_000915,53,Male,African American,Never,25.6,1,2025-05-05,0
+PT_000916,31,Female,Caucasian,Never,37.7,0,2025-05-24,0
+PT_000917,25,Female,Caucasian,Never,40.0,1,2025-01-31,0
+PT_000918,83,Female,Caucasian,Former,31.3,0,2025-04-18,1
+PT_000919,58,Female,Caucasian,Former,28.5,0,2025-03-31,0
+PT_000920,68,Male,Hispanic,Never,20.0,0,2025-05-02,0
+PT_000921,68,Male,Hispanic,Former,34.7,0,2025-04-25,1
+PT_000922,52,Female,African American,Former,29.2,0,2025-04-12,0
+PT_000923,38,Female,Caucasian,Never,20.9,0,2025-05-27,0
+PT_000924,32,Male,Hispanic,Never,26.0,1,2025-06-08,0
+PT_000925,56,Male,Caucasian,Former,29.1,0,2025-05-17,0
+PT_000926,43,Male,Caucasian,Current,25.0,0,2025-05-17,0
+PT_000927,62,Female,Caucasian,Current,24.1,0,2025-01-07,0
+PT_000928,54,Female,Asian,Former,30.2,1,2025-02-16,0
+PT_000929,59,Female,Caucasian,Never,28.1,0,2025-02-16,0
+PT_000930,64,Male,Caucasian,Former,29.4,0,2025-01-31,1
+PT_000931,47,Male,Caucasian,Never,34.0,1,2025-01-16,0
+PT_000932,37,Male,Caucasian,Former,26.0,0,2025-03-10,0
+PT_000933,29,Male,Hispanic,Never,31.4,0,2025-04-15,0
+PT_000934,40,Female,Caucasian,Former,26.5,0,2025-03-04,0
+PT_000935,55,Female,Caucasian,Never,27.8,0,2025-06-17,0
+PT_000936,61,Female,Caucasian,Former,38.1,0,2025-06-11,0
+PT_000937,46,Female,Hispanic,Never,18.0,0,2025-04-12,0
+PT_000938,73,Female,Caucasian,Former,25.2,0,2025-06-24,0
+PT_000939,40,Male,African American,Never,38.0,0,2025-06-03,0
+PT_000940,63,Female,Hispanic,Never,34.0,0,2025-06-22,0
+PT_000941,26,Female,African American,Never,25.0,0,2025-01-20,0
+PT_000942,34,Male,Caucasian,Never,34.4,1,2025-04-02,1
+PT_000943,56,Female,Caucasian,Former,19.5,0,2025-01-06,0
+PT_000944,56,Female,Caucasian,Never,34.2,0,2025-02-26,0
+PT_000945,63,Female,Caucasian,Never,37.4,0,2025-01-02,1
+PT_000946,45,Male,Caucasian,Never,22.8,1,2025-02-19,0
+PT_000947,72,Female,Caucasian,Former,18.9,0,2025-05-26,0
+PT_000948,39,Female,Caucasian,Never,22.3,0,2025-05-17,0
+PT_000949,18,Female,Caucasian,Never,35.2,0,2025-03-24,0
+PT_000950,62,Female,Asian,Never,25.2,0,2025-01-12,0
+PT_000951,70,Male,Other,Never,31.4,0,2025-03-27,0
+PT_000952,59,Male,African American,Never,32.4,0,2025-03-05,0
+PT_000953,64,Female,Caucasian,Never,16.0,0,2025-06-01,0
+PT_000954,44,Male,Hispanic,Former,27.7,0,2025-03-27,0
+PT_000955,81,Male,Caucasian,Current,37.8,0,2025-05-29,0
+PT_000956,68,Female,African American,Never,24.9,1,2025-01-16,1
+PT_000957,51,Male,African American,Never,32.9,0,2025-01-14,0
+PT_000958,68,Female,Hispanic,Former,28.2,0,2025-06-09,0
+PT_000959,43,Male,Caucasian,Never,29.5,0,2025-01-07,0
+PT_000960,60,Female,Caucasian,Never,26.2,0,2025-02-19,0
+PT_000961,56,Female,African American,Never,25.9,0,2025-02-05,0
+PT_000962,73,Male,Caucasian,Former,22.5,0,2025-05-30,0
+PT_000963,36,Male,Caucasian,Former,24.3,0,2025-05-13,0
+PT_000964,58,Male,Hispanic,Never,31.3,0,2025-03-30,0
+PT_000965,44,Female,African American,Never,24.9,1,2025-04-30,0
+PT_000966,23,Male,African American,Never,28.5,1,2025-01-11,0
+PT_000967,59,Female,Caucasian,Current,22.8,0,2025-03-26,1
+PT_000968,47,Female,Caucasian,Former,26.8,0,2025-01-08,1
+PT_000969,58,Male,Hispanic,Former,32.1,0,2025-01-08,0
+PT_000970,57,Female,Asian,Never,31.0,0,2025-02-15,0
+PT_000971,49,Female,Caucasian,Former,31.0,0,2025-01-29,0
+PT_000972,76,Male,Caucasian,Current,21.3,1,2025-06-09,1
+PT_000973,45,Female,Other,Never,31.5,1,2025-05-17,0
+PT_000974,62,Male,Caucasian,Never,24.9,0,2025-02-18,0
+PT_000975,83,Male,African American,Former,26.1,0,2025-05-11,0
+PT_000976,31,Female,Caucasian,Never,27.3,0,2025-02-12,0
+PT_000977,20,Female,Caucasian,Never,29.2,0,2025-06-27,0
+PT_000978,62,Female,Hispanic,Never,39.1,0,2025-01-10,0
+PT_000979,69,Female,Caucasian,Never,36.6,1,2025-05-27,0
+PT_000980,55,Female,Caucasian,Never,29.4,0,2025-04-01,0
+PT_000981,54,Female,Caucasian,Former,29.0,0,2025-03-23,1
+PT_000982,34,Female,Asian,Never,27.2,1,2025-05-09,1
+PT_000983,44,Female,Caucasian,Former,34.9,0,2025-02-21,0
+PT_000984,48,Female,Caucasian,Never,26.0,0,2025-06-30,0
+PT_000985,79,Male,Caucasian,Never,25.1,0,2025-04-14,1
+PT_000986,58,Male,Caucasian,Never,36.1,0,2025-04-12,0
+PT_000987,51,Male,Caucasian,Current,30.0,0,2025-04-29,0
+PT_000988,62,Male,Caucasian,Former,28.7,0,2025-05-23,0
+PT_000989,47,Female,Hispanic,Former,32.6,0,2025-04-01,0
+PT_000990,61,Male,Other,Current,17.2,0,2025-05-26,0
+PT_000991,42,Female,Caucasian,Never,25.3,0,2025-06-05,0
+PT_000992,37,Female,Caucasian,Never,40.2,0,2025-01-28,1
+PT_000993,52,Male,Caucasian,Current,27.5,0,2025-06-26,0
+PT_000994,39,Female,Caucasian,Never,26.9,0,2025-06-18,0
+PT_000995,62,Female,Caucasian,Never,27.6,0,2025-02-10,0
+PT_000996,63,Female,Caucasian,Former,24.4,0,2025-02-03,0
+PT_000997,45,Male,Caucasian,Former,29.1,0,2025-06-25,0
+PT_000998,79,Female,Caucasian,Never,21.8,1,2025-03-26,0
+PT_000999,39,Female,Caucasian,Former,36.5,0,2025-04-27,0
+PT_001000,73,Female,Caucasian,Former,22.5,0,2025-02-15,1
