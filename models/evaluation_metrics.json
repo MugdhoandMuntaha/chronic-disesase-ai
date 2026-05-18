@@ -1,0 +1,23 @@
+{
+  "auroc": 1.0,
+  "auprc": 1.0,
+  "brier_score": 1.6502531711142718e-05,
+  "sensitivity_at_90_spec": 1.0,
+  "threshold_at_90_spec": 0.9630014896392822,
+  "sensitivity_at_95_spec": 1.0,
+  "threshold_at_95_spec": 0.9630014896392822,
+  "default_threshold": 0.5,
+  "sensitivity": 1.0,
+  "specificity": 1.0,
+  "precision": 1.0,
+  "f1_score": 1.0,
+  "accuracy": 1.0,
+  "best_f1": 0.99999999995,
+  "best_f1_threshold": 0.9630014896392822,
+  "confusion_matrix": {
+    "TN": 171,
+    "FP": 0,
+    "FN": 0,
+    "TP": 29
+  }
+}

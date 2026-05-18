@@ -1,0 +1,18 @@
+{
+  "val_loss": 0.1112,
+  "auroc": 1.0,
+  "auprc": 1.0,
+  "sensitivity": 1.0,
+  "specificity": 1.0,
+  "sensitivity_at_90_spec": 1.0,
+  "precision": 1.0,
+  "f1_score": 1.0,
+  "accuracy": 1.0,
+  "brier_score": 0.003432,
+  "confusion_matrix": {
+    "true_negatives": 171,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "true_positives": 29
+  }
+}
