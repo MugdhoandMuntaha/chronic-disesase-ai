@@ -1,0 +1,19 @@
+{
+  "model_architecture": "PyTorch RETAIN (Reverse Time Attention)",
+  "auroc": 1.0,
+  "auprc": 1.0,
+  "sensitivity": 1.0,
+  "specificity": 0.9532163742690059,
+  "sensitivity_at_90_specificity": 1.0,
+  "operating_threshold_at_90_specificity": 0.7621915936470032,
+  "brier_score": 0.1761559247970581,
+  "accuracy": 0.96,
+  "f1_score": 0.8787878787878788,
+  "precision": 0.7837837837837838,
+  "true_positives": 29,
+  "false_positives": 8,
+  "true_negatives": 163,
+  "false_negatives": 0,
+  "sample_count": 200,
+  "positive_count": 29
+}
