@@ -1,0 +1,106 @@
+{
+  "base_expected_value": 0.13762325048446655,
+  "num_test_patients": 200,
+  "top_features": [
+    {
+      "Feature": "systolic_bp_mean",
+      "Mean_Abs_SHAP": 1.777654767036438
+    },
+    {
+      "Feature": "diastolic_bp_mean",
+      "Mean_Abs_SHAP": 1.2376880645751953
+    },
+    {
+      "Feature": "fasting_glucose_max",
+      "Mean_Abs_SHAP": 0.7510207295417786
+    },
+    {
+      "Feature": "systolic_bp_max",
+      "Mean_Abs_SHAP": 0.6705951690673828
+    },
+    {
+      "Feature": "hba1c_latest",
+      "Mean_Abs_SHAP": 0.5031318664550781
+    },
+    {
+      "Feature": "fasting_glucose_latest",
+      "Mean_Abs_SHAP": 0.2961159646511078
+    },
+    {
+      "Feature": "triglycerides_mean",
+      "Mean_Abs_SHAP": 0.2951034605503082
+    },
+    {
+      "Feature": "hba1c_mean",
+      "Mean_Abs_SHAP": 0.18482883274555206
+    },
+    {
+      "Feature": "triglycerides_max",
+      "Mean_Abs_SHAP": 0.17690624296665192
+    },
+    {
+      "Feature": "fasting_glucose_mean",
+      "Mean_Abs_SHAP": 0.15500907599925995
+    },
+    {
+      "Feature": "diastolic_bp_min",
+      "Mean_Abs_SHAP": 0.1533530354499817
+    },
+    {
+      "Feature": "hba1c_max",
+      "Mean_Abs_SHAP": 0.11864025890827179
+    },
+    {
+      "Feature": "diastolic_bp_latest",
+      "Mean_Abs_SHAP": 0.054935578256845474
+    },
+    {
+      "Feature": "triglycerides_latest",
+      "Mean_Abs_SHAP": 0.051370974630117416
+    },
+    {
+      "Feature": "ldl_max",
+      "Mean_Abs_SHAP": 0.047255512326955795
+    },
+    {
+      "Feature": "diastolic_bp_max",
+      "Mean_Abs_SHAP": 0.03606892749667168
+    },
+    {
+      "Feature": "systolic_bp_min",
+      "Mean_Abs_SHAP": 0.03324364125728607
+    },
+    {
+      "Feature": "total_cholesterol_mean",
+      "Mean_Abs_SHAP": 0.020146576687693596
+    },
+    {
+      "Feature": "fasting_glucose_min",
+      "Mean_Abs_SHAP": 0.016905464231967926
+    },
+    {
+      "Feature": "egfr_mean",
+      "Mean_Abs_SHAP": 0.015813207253813744
+    },
+    {
+      "Feature": "heart_rate_max",
+      "Mean_Abs_SHAP": 0.009333733469247818
+    },
+    {
+      "Feature": "hba1c_min",
+      "Mean_Abs_SHAP": 0.00873025506734848
+    },
+    {
+      "Feature": "total_cholesterol_min",
+      "Mean_Abs_SHAP": 0.006044043693691492
+    },
+    {
+      "Feature": "egfr_max",
+      "Mean_Abs_SHAP": 0.005067075602710247
+    },
+    {
+      "Feature": "ldl_latest",
+      "Mean_Abs_SHAP": 0.004824252333492041
+    }
+  ]
+}
