@@ -1,0 +1,52 @@
+{
+  "initial_risk": 0.9987,
+  "target_risk": 0.2,
+  "counterfactual_risk": 0.111,
+  "absolute_risk_reduction": 0.8877,
+  "target_achieved": true,
+  "recourse_needed": true,
+  "actions_count": 4,
+  "recommended_actions": [
+    {
+      "lever_name": "fasting_glucose",
+      "display_name": "Fasting Blood Glucose",
+      "unit": "mg/dL",
+      "baseline_value": 138.7,
+      "target_value": 117.22,
+      "required_reduction": 21.48,
+      "reduction_pct": 15.5,
+      "clinical_directive": "Initiate medical nutrition therapy, reduce carbohydrate intake, and consider metformin."
+    },
+    {
+      "lever_name": "systolic_bp",
+      "display_name": "Systolic Blood Pressure",
+      "unit": "mmHg",
+      "baseline_value": 143.0,
+      "target_value": 126.2,
+      "required_reduction": 16.8,
+      "reduction_pct": 11.7,
+      "clinical_directive": "Adopt DASH diet, restrict dietary sodium (<2g/day), and optimize antihypertensive therapy."
+    },
+    {
+      "lever_name": "diastolic_bp",
+      "display_name": "Diastolic Blood Pressure",
+      "unit": "mmHg",
+      "baseline_value": 86.5,
+      "target_value": 79.6,
+      "required_reduction": 6.9,
+      "reduction_pct": 8.0,
+      "clinical_directive": "Complement systolic BP reduction with regular aerobic exercise and stress management."
+    },
+    {
+      "lever_name": "hba1c",
+      "display_name": "Glycated Hemoglobin (HbA1c)",
+      "unit": "%",
+      "baseline_value": 6.79,
+      "target_value": 5.84,
+      "required_reduction": 0.95,
+      "reduction_pct": 14.1,
+      "clinical_directive": "Target HbA1c < 5.7% through sustained lifestyle intervention and glycemic control."
+    }
+  ],
+  "message": "Risk successfully reduced from 99.9% to 11.1% (88.8% absolute reduction)."
+}

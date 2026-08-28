@@ -1,0 +1,198 @@
+{
+  "audit_title": "FDA SaMD Clinical Demographic Fairness and Algorithmic Bias Audit",
+  "decision_threshold": 0.5,
+  "overall_cohort": {
+    "sample_size": 200,
+    "disease_cases": 29,
+    "control_cases": 171,
+    "prevalence": 0.145,
+    "predicted_positives": 29,
+    "selection_rate": 0.145,
+    "auroc": 1.0,
+    "auprc": 1.0,
+    "brier_score": 3.6e-05,
+    "sensitivity_tpr": 1.0,
+    "specificity_tnr": 1.0,
+    "false_positive_rate_fpr": 0.0,
+    "false_negative_rate_fnr": 0.0
+  },
+  "biological_sex_audit": {
+    "subgroups": {
+      "Male": {
+        "sample_size": 103,
+        "disease_cases": 19,
+        "control_cases": 84,
+        "prevalence": 0.1845,
+        "predicted_positives": 19,
+        "selection_rate": 0.1845,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier_score": 5.6e-05,
+        "sensitivity_tpr": 1.0,
+        "specificity_tnr": 1.0,
+        "false_positive_rate_fpr": 0.0,
+        "false_negative_rate_fnr": 0.0
+      },
+      "Female": {
+        "sample_size": 97,
+        "disease_cases": 10,
+        "control_cases": 87,
+        "prevalence": 0.1031,
+        "predicted_positives": 10,
+        "selection_rate": 0.1031,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier_score": 1.5e-05,
+        "sensitivity_tpr": 1.0,
+        "specificity_tnr": 1.0,
+        "false_positive_rate_fpr": 0.0,
+        "false_negative_rate_fnr": 0.0
+      }
+    },
+    "disparity_analysis": {
+      "disparate_impact_ratio": 0.5588,
+      "four_fifths_rule_passed": false,
+      "false_positive_rate_parity_gap": 0.0,
+      "false_negative_rate_parity_gap": 0.0,
+      "equalized_odds_max_gap": 0.0,
+      "equalized_odds_acceptable": true
+    }
+  },
+  "age_bracket_audit": {
+    "subgroups": {
+      "Young_Adults (<50)": {
+        "sample_size": 67,
+        "disease_cases": 6,
+        "control_cases": 61,
+        "prevalence": 0.0896,
+        "predicted_positives": 6,
+        "selection_rate": 0.0896,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier_score": 9.7e-05,
+        "sensitivity_tpr": 1.0,
+        "specificity_tnr": 1.0,
+        "false_positive_rate_fpr": 0.0,
+        "false_negative_rate_fnr": 0.0
+      },
+      "Middle_Aged (50-65)": {
+        "sample_size": 92,
+        "disease_cases": 9,
+        "control_cases": 83,
+        "prevalence": 0.0978,
+        "predicted_positives": 9,
+        "selection_rate": 0.0978,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier_score": 3e-06,
+        "sensitivity_tpr": 1.0,
+        "specificity_tnr": 1.0,
+        "false_positive_rate_fpr": 0.0,
+        "false_negative_rate_fnr": 0.0
+      },
+      "Seniors (>65)": {
+        "sample_size": 41,
+        "disease_cases": 14,
+        "control_cases": 27,
+        "prevalence": 0.3415,
+        "predicted_positives": 14,
+        "selection_rate": 0.3415,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier_score": 1.2e-05,
+        "sensitivity_tpr": 1.0,
+        "specificity_tnr": 1.0,
+        "false_positive_rate_fpr": 0.0,
+        "false_negative_rate_fnr": 0.0
+      }
+    },
+    "disparity_analysis": {
+      "disparate_impact_ratio": 0.2624,
+      "four_fifths_rule_passed": false
+    }
+  },
+  "racial_ethnic_audit": {
+    "subgroups": {
+      "Caucasian": {
+        "sample_size": 117,
+        "disease_cases": 17,
+        "control_cases": 100,
+        "prevalence": 0.1453,
+        "predicted_positives": 17,
+        "selection_rate": 0.1453,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier_score": 3e-06,
+        "sensitivity_tpr": 1.0,
+        "specificity_tnr": 1.0,
+        "false_positive_rate_fpr": 0.0,
+        "false_negative_rate_fnr": 0.0
+      },
+      "African_American": {
+        "sample_size": 34,
+        "disease_cases": 6,
+        "control_cases": 28,
+        "prevalence": 0.1765,
+        "predicted_positives": 6,
+        "selection_rate": 0.1765,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier_score": 3.5e-05,
+        "sensitivity_tpr": 1.0,
+        "specificity_tnr": 1.0,
+        "false_positive_rate_fpr": 0.0,
+        "false_negative_rate_fnr": 0.0
+      },
+      "Hispanic": {
+        "sample_size": 31,
+        "disease_cases": 2,
+        "control_cases": 29,
+        "prevalence": 0.0645,
+        "predicted_positives": 2,
+        "selection_rate": 0.0645,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier_score": 3e-06,
+        "sensitivity_tpr": 1.0,
+        "specificity_tnr": 1.0,
+        "false_positive_rate_fpr": 0.0,
+        "false_negative_rate_fnr": 0.0
+      },
+      "Asian": {
+        "sample_size": 11,
+        "disease_cases": 4,
+        "control_cases": 7,
+        "prevalence": 0.3636,
+        "predicted_positives": 4,
+        "selection_rate": 0.3636,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier_score": 2e-06,
+        "sensitivity_tpr": 1.0,
+        "specificity_tnr": 1.0,
+        "false_positive_rate_fpr": 0.0,
+        "false_negative_rate_fnr": 0.0
+      },
+      "Other": {
+        "sample_size": 7,
+        "disease_cases": 0,
+        "control_cases": 7,
+        "prevalence": 0.0,
+        "predicted_positives": 0,
+        "selection_rate": 0.0,
+        "auroc": "Undefined",
+        "auprc": "Undefined",
+        "brier_score": 0.000792,
+        "sensitivity_tpr": 0.0,
+        "specificity_tnr": 1.0,
+        "false_positive_rate_fpr": 0.0,
+        "false_negative_rate_fnr": 0.0
+      }
+    }
+  },
+  "regulatory_summary": {
+    "four_fifths_rule_sex_passed": false,
+    "equalized_odds_sex_passed": true,
+    "audit_status": "PASSED - Equity Standards Met"
+  }
+}

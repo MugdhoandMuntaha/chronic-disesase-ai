@@ -1,0 +1,30 @@
+{
+  "target_coverage_guarantee": 0.9,
+  "empirical_coverage": 1.0,
+  "guarantee_satisfied": true,
+  "conformal_threshold_q_hat": 0.0016,
+  "sample_count": 100,
+  "singleton_non_disease_count": 85,
+  "singleton_onset_count": 15,
+  "ambiguous_borderline_count": 0,
+  "ambiguity_rate_pct": 0.0,
+  "expected_calibration_error": 0.00203,
+  "maximum_calibration_error": 0.00256,
+  "brier_score": 1.4e-05,
+  "calibration_bins": [
+    {
+      "bin_range": "0.00-0.10",
+      "patient_count": 85,
+      "accuracy": 0.0,
+      "confidence": 0.0019,
+      "calibration_gap": 0.0019
+    },
+    {
+      "bin_range": "0.90-1.00",
+      "patient_count": 15,
+      "accuracy": 1.0,
+      "confidence": 0.9974,
+      "calibration_gap": 0.0026
+    }
+  ]
+}
