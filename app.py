@@ -44,6 +44,19 @@ if xgb_model is None:
         print(f"[Model Loader] Warning: Could not load joblib model: {e}")
 
 
+# Hugging Face ZeroGPU Support
+try:
+    import spaces
+except ImportError:
+    class _MockSpaces:
+        def GPU(self, fn=None, duration=None):
+            if fn is None:
+                return lambda f: f
+            return fn
+    spaces = _MockSpaces()
+
+
+@spaces.GPU
 def predict_risk(
     age: float,
     sex: str,
