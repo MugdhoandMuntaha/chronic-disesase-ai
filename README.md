@@ -4,7 +4,7 @@ emoji: 🩺
 colorFrom: green
 colorTo: indigo
 sdk: gradio
-app_file: app.py
+app_file: gradio_app.py
 pinned: false
 license: mit
 ---
