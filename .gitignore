@@ -1,0 +1,166 @@
+# ==============================================================================
+# EndoPredict AI | Comprehensive Project .gitignore
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Python Bytecode, Cache & Distribution
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ------------------------------------------------------------------------------
+# 2. Virtual Environments
+# ------------------------------------------------------------------------------
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.conda/
+
+# ------------------------------------------------------------------------------
+# 3. Unit Tests, Coverage & Quality Linters
+# ------------------------------------------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# ------------------------------------------------------------------------------
+# 4. Node.js, Next.js & Frontend Artifacts
+# ------------------------------------------------------------------------------
+node_modules/
+**/node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js build output
+.next/
+**/.next/
+out/
+**/out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel deployment cache
+.vercel/
+
+# ------------------------------------------------------------------------------
+# 5. MLflow Tracking, Model Checkpoint Dumps & Local Databases
+# ------------------------------------------------------------------------------
+# MLflow local runs directory & SQLite database
+mlruns/
+**/mlruns/
+mlflow.db
+mlflow.db-journal
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Large intermediate checkpoint weights (keep committed release models in models/)
+*.ckpt
+*.h5
+*.safetensors
+*.bin
+
+# ------------------------------------------------------------------------------
+# 6. Environment Variables, API Keys & Clinical Secrets
+# ------------------------------------------------------------------------------
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+secrets/
+credentials.json
+
+# ------------------------------------------------------------------------------
+# 7. Sensitive Protected Health Information (PHI) & Raw Dumps
+# ------------------------------------------------------------------------------
+# Real clinical EHR dumps (only committed synthetic cohort should remain)
+data/raw/*_real_*.csv
+data/raw/*_real_*.parquet
+data/raw/*_phi_*
+data/raw/*.xlsx
+data/raw/*.dcm
+data/raw/*.tar.gz
+data/raw/*.zip
+temp_cohorts/
+
+# ------------------------------------------------------------------------------
+# 8. Logs & Diagnostic Dumps
+# ------------------------------------------------------------------------------
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ------------------------------------------------------------------------------
+# 9. IDE, Editor & Operating System Artifacts
+# ------------------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+
+# IDEs
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~

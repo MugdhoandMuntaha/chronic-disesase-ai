@@ -1,0 +1,72 @@
+name: Clinical Machine Learning CI/CD Pipeline
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  test-and-validate:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11"]
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: "pip"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Synthetic Cohort Generator Verification
+        run: |
+          python -m src.data.generator --verify
+
+      - name: Run Data Cleaning and Feature Pipeline
+        run: |
+          python -m src.data_loader
+
+      - name: Execute Complete Test Suite
+        run: |
+          pytest tests/ -v --durations=10
+
+      - name: Verify Decision Curve Analysis (DCA)
+        run: |
+          python -m src.evaluation.dca
+
+      - name: Verify Clinical Distribution Shift Detector
+        run: |
+          python -m src.monitoring.drift_detector
+
+      - name: Verify Split Conformal Prediction & Calibration
+        run: |
+          python -m src.evaluation.conformal
+
+      - name: Verify Actionable Clinical Recourse & Counterfactuals
+        run: |
+          python -m src.explainability.counterfactuals
+
+      - name: Verify Clinical Algorithmic Fairness Audit
+        run: |
+          python -m src.evaluation.fairness
+
+      - name: Verify MLflow Experiment Tracking & Leaderboard
+        run: |
+          python -m src.tracking.experiment_tracker
+
+      - name: Upload Verification Reports & Diagnostic Artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: clinical-evaluation-reports-py${{ matrix.python-version }}
+          path: reports/

@@ -26,6 +26,7 @@ python-multipart>=0.0.6
 
 # Interactive UI Dashboard
 streamlit>=1.30.0
+gradio>=4.0.0
 
 # Visualization & Reporting
 matplotlib>=3.8.0
